@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+hustchat/
+
+# API Key - KHÔNG commit file này
+.env
+*.env
+
+# Chroma index - build lại bằng: python -m rag.build_index
+rag/vector_store/
+
+# Database
+*.db
+
+# Frontend
+node_modules/
+frontend/build/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

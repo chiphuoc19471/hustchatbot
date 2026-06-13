@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Tư Vấn Quy Chế HUST</title>
+    <link rel="stylesheet" href="css/chat.css">
+</head>
+<body>
+    <div class="app">
+        <!-- Sidebar lịch sử -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <span class="sidebar-title">Lịch sử</span>
+                <button id="newChatBtn" title="Tạo cuộc trò chuyện mới">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
+                    </svg>
+                    Mới
+                </button>
+            </div>
+            <div class="history-list" id="historyList">
+                <!-- danh sách các hội thoại -->
+            </div>
+        </aside>
+
+        <!-- Main chat area -->
+        <main class="chat-main">
+            <div class="chat-header">
+                <div class="header-left">
+                    <button id="toggleSidebar" title="Ẩn/hiện sidebar">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="3" y1="6" x2="21" y2="6"/>
+                            <line x1="3" y1="12" x2="21" y2="12"/>
+                            <line x1="3" y1="18" x2="21" y2="18"/>
+                        </svg>
+                    </button>
+                    <div class="header-title">
+                        🎓 Chatbot Quy Chế HUST
+                        <span class="header-badge">AI</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="messages-container" id="messagesContainer">
+                <div class="empty-chat" id="emptyChat">
+                    <div class="empty-chat-icon">🎓</div>
+                    <div class="empty-chat-title">Tư vấn Quy chế HUST</div>
+                    <div class="empty-chat-sub">Hãy đặt câu hỏi về quy chế đào tạo, chuẩn đầu ra, điều kiện tốt nghiệp, học phí, học bổng, đăng ký học phần...</div>
+                </div>
+            </div>
+
+            <div class="input-area">
+                <div class="input-wrapper">
+                    <textarea id="messageInput" placeholder="Nhập câu hỏi của bạn..." rows="1"></textarea>
+                    <button id="sendBtn" title="Gửi (Enter)">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="22" y1="2" x2="11" y2="13"/>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="input-hint">Nhấn Enter để gửi · Shift+Enter xuống dòng</div>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/config.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/chat-ui.js"></script>
+</body>
+</html>

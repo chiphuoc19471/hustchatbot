@@ -1,0 +1,23 @@
+# Backend
+fastapi==0.111.0
+uvicorn==0.30.0
+sqlalchemy==2.0.30
+python-multipart==0.0.9
+pydantic==2.7.0
+
+# RAG
+langchain==0.2.0
+langchain-openai==0.1.7
+langchain-community==0.2.0
+langchain-chroma==0.1.2
+openai==1.30.0
+python-dotenv==1.0.1
+
+# Data processing (dùng để chạy data/parse_pdf.py)
+# Yêu cầu: Java 11+ (kiểm tra: java -version)
+opendataloader-pdf
+
+# Evaluation (dùng để chạy data/evaluation/ragas_eval.py)
+ragas
+datasets
+pandas

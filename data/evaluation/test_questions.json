@@ -1,0 +1,190 @@
+[
+    {
+        "question": "Thử việc đối với công việc người quản lý doanh nghiệp tối đa bao nhiêu ngày?",
+        "ground_truth": "Theo Điều 25 Bộ luật Lao động 2019, thời gian thử việc không quá 180 ngày đối với công việc của người quản lý doanh nghiệp."
+    },
+    {
+        "question": "Thử việc đối với công việc cần trình độ đại học thì tối đa bao lâu?",
+        "ground_truth": "Theo Điều 25 Bộ luật Lao động 2019, thời gian thử việc không quá 60 ngày đối với công việc có chức danh nghề nghiệp cần trình độ chuyên môn, kỹ thuật từ cao đẳng trở lên."
+    },
+    {
+        "question": "Có được áp dụng thời gian thử việc đối với hợp đồng lao động dưới 1 tháng không?",
+        "ground_truth": "Theo khoản 3 Điều 24 Bộ luật Lao động 2019, không áp dụng thử việc đối với người lao động giao kết hợp đồng lao động có thời hạn dưới 01 tháng."
+    },
+    {
+        "question": "Người lao động đơn phương chấm dứt hợp đồng lao động không xác định thời hạn phải báo trước bao lâu?",
+        "ground_truth": "Theo khoản 1 Điều 35 Bộ luật Lao động 2019, người lao động phải báo trước ít nhất 45 ngày nếu làm việc theo hợp đồng lao động không xác định thời hạn."
+    },
+    {
+        "question": "Công ty có quyền đơn phương chấm dứt hợp đồng khi người lao động ốm đau dài ngày không?",
+        "ground_truth": "Có. Theo điểm b khoản 1 Điều 36 Bộ luật Lao động 2019, người lao động ốm đau, tai nạn đã điều trị 12 tháng liên tục (với HĐLĐ không xác định thời hạn) hoặc 06 tháng liên tục (HĐLĐ 12-36 tháng) mà khả năng lao động chưa hồi phục thì NSDLĐ có quyền đơn phương chấm dứt hợp đồng."
+    },
+    {
+        "question": "Lương thử việc ít nhất bằng bao nhiêu phần trăm mức lương chính thức?",
+        "ground_truth": "Theo Điều 26 Bộ luật Lao động 2019, tiền lương của người lao động trong thời gian thử việc do hai bên thỏa thuận nhưng ít nhất phải bằng 85% mức lương của công việc đó."
+    },
+    {
+        "question": "Có được giao kết hợp đồng lao động bằng lời nói không?",
+        "ground_truth": "Được. Theo khoản 2 Điều 14 Bộ luật Lao động 2019, hai bên có thể giao kết hợp đồng lao động bằng lời nói đối với hợp đồng có thời hạn dưới 01 tháng (trừ một số trường hợp đặc biệt)."
+    },
+    {
+        "question": "Người sử dụng lao động giữ bản chính giấy tờ tùy thân của người lao động có vi phạm pháp luật không?",
+        "ground_truth": "Có vi phạm. Theo khoản 1 Điều 17 Bộ luật Lao động 2019, nghiêm cấm người sử dụng lao động giữ bản chính giấy tờ tùy thân, văn bằng, chứng chỉ của người lao động."
+    },
+    {
+        "question": "Hợp đồng lao động xác định thời hạn được ký tối đa mấy lần?",
+        "ground_truth": "Theo điểm c khoản 2 Điều 20 Bộ luật Lao động 2019, hợp đồng lao động xác định thời hạn chỉ được ký thêm 01 lần, sau đó nếu vẫn tiếp tục làm việc thì phải ký hợp đồng lao động không xác định thời hạn."
+    },
+    {
+        "question": "Phụ lục hợp đồng lao động có được dùng để sửa đổi thời hạn của hợp đồng không?",
+        "ground_truth": "Không. Theo khoản 2 Điều 22 Bộ luật Lao động 2019, phụ lục hợp đồng lao động không được sửa đổi thời hạn của hợp đồng lao động."
+    },
+    {
+        "question": "Người lao động làm thêm giờ vào ngày thường được trả lương ít nhất bao nhiêu?",
+        "ground_truth": "Theo điểm a khoản 1 Điều 98 Bộ luật Lao động 2019, người lao động làm thêm giờ vào ngày thường được trả lương ít nhất bằng 150%."
+    },
+    {
+        "question": "Người lao động làm thêm giờ vào ngày nghỉ hằng tuần được trả lương ít nhất bao nhiêu?",
+        "ground_truth": "Theo điểm b khoản 1 Điều 98 Bộ luật Lao động 2019, làm thêm giờ vào ngày nghỉ hằng tuần được trả lương ít nhất bằng 200%."
+    },
+    {
+        "question": "Người lao động làm thêm giờ vào ngày lễ được trả lương ít nhất bao nhiêu?",
+        "ground_truth": "Theo điểm c khoản 1 Điều 98 Bộ luật Lao động 2019, làm thêm giờ vào ngày nghỉ lễ, tết, ngày nghỉ có hưởng lương được trả ít nhất bằng 300% chưa kể tiền lương ngày lễ, tết."
+    },
+    {
+        "question": "Tiền lương làm việc vào ban đêm được quy định như thế nào?",
+        "ground_truth": "Theo khoản 2 Điều 98 Bộ luật Lao động 2019, người lao động làm việc vào ban đêm được trả thêm ít nhất bằng 30% tiền lương tính theo đơn giá tiền lương hoặc tiền lương thực trả theo công việc của ngày làm việc bình thường."
+    },
+    {
+        "question": "Người lao động làm việc đủ 12 tháng được nghỉ phép năm bao nhiêu ngày?",
+        "ground_truth": "Theo điểm a khoản 1 Điều 113 Bộ luật Lao động 2019, người lao động làm việc trong điều kiện bình thường được nghỉ 12 ngày làm việc."
+    },
+    {
+        "question": "Nghỉ việc riêng khi kết hôn được nghỉ mấy ngày và có hưởng lương không?",
+        "ground_truth": "Theo điểm a khoản 1 Điều 115 Bộ luật Lao động 2019, người lao động kết hôn được nghỉ việc riêng 03 ngày và vẫn được hưởng nguyên lương."
+    },
+    {
+        "question": "Bố đẻ mất thì người lao động được nghỉ việc riêng mấy ngày có lương?",
+        "ground_truth": "Theo điểm c khoản 1 Điều 115 Bộ luật Lao động 2019, bố đẻ mất thì người lao động được nghỉ 03 ngày và hưởng nguyên lương."
+    },
+    {
+        "question": "Một năm người lao động được làm thêm tối đa bao nhiêu giờ?",
+        "ground_truth": "Theo điểm b khoản 2 Điều 107 Bộ luật Lao động 2019, số giờ làm thêm không quá 200 giờ trong 01 năm, trừ một số trường hợp đặc biệt được làm thêm không quá 300 giờ."
+    },
+    {
+        "question": "Thời gian làm việc bình thường trong ngày không quá bao nhiêu giờ?",
+        "ground_truth": "Theo khoản 1 Điều 105 Bộ luật Lao động 2019, thời giờ làm việc bình thường không quá 08 giờ trong 01 ngày và không quá 48 giờ trong 01 tuần."
+    },
+    {
+        "question": "Thời gian nghỉ giữa ca làm việc ban ngày là bao nhiêu phút?",
+        "ground_truth": "Theo khoản 1 Điều 109 Bộ luật Lao động 2019, người lao động làm việc theo thời giờ làm việc quy định thì được nghỉ giữa giờ ít nhất 30 phút liên tục, làm việc ban đêm thì được nghỉ giữa giờ ít nhất 45 phút liên tục."
+    },
+    {
+        "question": "Lao động nữ sinh con được nghỉ thai sản bao nhiêu tháng?",
+        "ground_truth": "Theo khoản 1 Điều 139 Bộ luật Lao động 2019, lao động nữ được nghỉ thai sản trước và sau khi sinh con là 06 tháng."
+    },
+    {
+        "question": "Lao động nữ sinh đôi thì được nghỉ thai sản thêm bao nhiêu tháng?",
+        "ground_truth": "Theo khoản 1 Điều 139 Bộ luật Lao động 2019, trường hợp lao động nữ sinh đôi trở lên thì tính từ con thứ 02 trở đi, cứ mỗi con, người mẹ được nghỉ thêm 01 tháng."
+    },
+    {
+        "question": "Lao động nữ mang thai đi khám thai được nghỉ mấy ngày?",
+        "ground_truth": "Theo Điều 32 Luật Bảo hiểm xã hội 2014, lao động nữ được nghỉ việc đi khám thai 05 lần, mỗi lần 01 ngày; trường hợp ở xa hoặc thai có bệnh lý thì nghỉ 02 ngày cho mỗi lần khám thai."
+    },
+    {
+        "question": "Lao động nam có vợ sinh con thường được nghỉ thai sản mấy ngày?",
+        "ground_truth": "Theo điểm a khoản 2 Điều 34 Luật Bảo hiểm xã hội 2014, lao động nam đang đóng BHXH khi vợ sinh con được nghỉ việc 05 ngày làm việc."
+    },
+    {
+        "question": "Sảy thai dưới 1 tháng tuổi được nghỉ việc hưởng chế độ thai sản tối đa bao nhiêu ngày?",
+        "ground_truth": "Theo điểm a khoản 1 Điều 33 Luật Bảo hiểm xã hội 2014, khi sảy thai, nạo, hút thai, thai chết lưu hoặc phá thai bệnh lý dưới 01 tháng tuổi thì được nghỉ tối đa 10 ngày."
+    },
+    {
+        "question": "Lao động nữ nuôi con dưới 12 tháng tuổi được nghỉ vắt sữa, cho con bú mỗi ngày bao lâu?",
+        "ground_truth": "Theo khoản 4 Điều 137 Bộ luật Lao động 2019, lao động nữ trong thời gian nuôi con dưới 12 tháng tuổi được nghỉ mỗi ngày 60 phút trong thời gian làm việc để cho con bú, vắt, trữ sữa, nghỉ ngơi."
+    },
+    {
+        "question": "Công ty có được sa thải phụ nữ mang thai không?",
+        "ground_truth": "Không. Theo khoản 3 Điều 137 Bộ luật Lao động 2019, người sử dụng lao động không được sa thải hoặc đơn phương chấm dứt hợp đồng lao động đối với người lao động vì lý do kết hôn, mang thai, nghỉ thai sản, nuôi con dưới 12 tháng tuổi."
+    },
+    {
+        "question": "Công ty có được yêu cầu phụ nữ mang thai từ tháng thứ 7 làm thêm giờ không?",
+        "ground_truth": "Không. Theo điểm a khoản 1 Điều 137 Bộ luật Lao động 2019, người sử dụng lao động không được sử dụng lao động nữ mang thai từ tháng thứ 07 (hoặc từ tháng thứ 06 ở vùng sâu vùng xa) làm việc ban đêm, làm thêm giờ và đi công tác xa."
+    },
+    {
+        "question": "Tiền trợ cấp một lần khi sinh con bằng bao nhiêu lần mức lương cơ sở?",
+        "ground_truth": "Theo Điều 38 Luật Bảo hiểm xã hội 2014, lao động nữ sinh con được trợ cấp một lần cho mỗi con bằng 02 lần mức lương cơ sở tại tháng lao động nữ sinh con."
+    },
+    {
+        "question": "Lao động nữ được nghỉ dưỡng sức sau sinh bao nhiêu ngày nếu sinh thường?",
+        "ground_truth": "Theo điểm c khoản 2 Điều 41 Luật Bảo hiểm xã hội 2014, thời gian nghỉ dưỡng sức, phục hồi sức khoẻ sau thai sản tối đa là 05 ngày đối với các trường hợp sinh thường."
+    },
+    {
+        "question": "Các hình thức xử lý kỷ luật lao động theo quy định hiện hành bao gồm những gì?",
+        "ground_truth": "Theo Điều 124 Bộ luật Lao động 2019, các hình thức xử lý kỷ luật lao động gồm: 1. Khiển trách. 2. Kéo dài thời hạn nâng lương không quá 06 tháng. 3. Cách chức. 4. Sa thải."
+    },
+    {
+        "question": "Người sử dụng lao động có được dùng hình thức phạt tiền để thay thế kỷ luật lao động không?",
+        "ground_truth": "Không. Theo Điều 127 Bộ luật Lao động 2019, nghiêm cấm các hành vi: Phạt tiền, cắt lương thay việc xử lý kỷ luật lao động."
+    },
+    {
+        "question": "Thời hiệu xử lý kỷ luật lao động thông thường là bao lâu?",
+        "ground_truth": "Theo khoản 1 Điều 123 Bộ luật Lao động 2019, thời hiệu xử lý kỷ luật lao động là 06 tháng kể từ ngày xảy ra hành vi vi phạm; trường hợp liên quan đến tài chính, tài sản, bí mật công nghệ thì thời hiệu là 12 tháng."
+    },
+    {
+        "question": "Điều kiện về số năm đóng BHXH tối thiểu để được hưởng lương hưu hàng tháng của người lao động hiện nay là bao nhiêu năm?",
+        "ground_truth": "Theo khoản 1 Điều 73 Luật Bảo hiểm xã hội (hoặc Điều 169 Bộ luật LĐ 2019), điều kiện chung về thời gian đóng BHXH tối thiểu để hưởng lương hưu là đủ 20 năm trở lên."
+    },
+    {
+        "question": "Nghỉ ốm đau do mắc bệnh thông thường đối với người đóng BHXH dưới 15 năm được nghỉ tối đa bao nhiêu ngày một năm?",
+        "ground_truth": "Theo điểm a khoản 1 Điều 26 Luật Bảo hiểm xã hội 2014, đối với người làm việc trong điều kiện bình thường, đóng BHXH dưới 15 năm thì được hưởng tối đa 30 ngày trong một năm."
+    },
+    {
+        "question": "Chế độ tử tuất của người tham gia BHXH bắt buộc bao gồm những khoản trợ cấp nào?",
+        "ground_truth": "Chế độ tử tuất theo Luật Bảo hiểm xã hội 2014 bao gồm: Trợ cấp mai táng (Điều 66), Trợ cấp tuất hằng tháng (Điều 67) hoặc Trợ cấp tuất một lần (Điều 69)."
+    },
+    {
+        "question": "Mức trợ cấp mai táng đối với người lao động đóng BHXH bắt buộc là bao nhiêu?",
+        "ground_truth": "Theo khoản 2 Điều 66 Luật Bảo hiểm xã hội 2014, trợ cấp mai táng bằng 10 lần mức lương cơ sở tại tháng mà người quy định chết."
+    },
+    {
+        "question": "Độ tuổi lao động tối thiểu theo pháp luật Việt Nam là bao nhiêu tuổi?",
+        "ground_truth": "Theo khoản 1 Điều 3 Bộ luật Lao động 2019, người lao động là người từ đủ 15 tuổi trở lên, trừ một số trường hợp được sử dụng người dưới 15 tuổi làm việc."
+    },
+    {
+        "question": "Bao nhiêu tuổi thì được coi là người lao động cao tuổi?",
+        "ground_truth": "Theo khoản 1 Điều 148 Bộ luật Lao động 2019, người lao động cao tuổi là người tiếp tục lao động sau độ tuổi nghỉ hưu theo quy định tại khoản 2 Điều 169 của Bộ luật này (ví dụ: nam đủ 60 tuổi, nữ đủ 55 tuổi có lộ trình tăng dần)."
+    },
+    {
+        "question": "Thời gian làm việc của người dưới 15 tuổi không được quá bao nhiêu giờ một ngày?",
+        "ground_truth": "Theo khoản 1 Điều 146 Bộ luật Lao động 2019, thời giờ làm việc của người chưa đủ 15 tuổi không được quá 04 giờ trong 01 ngày và 20 giờ trong 01 tuần."
+    },
+    {
+        "question": "Mức lương tối thiểu vùng do cơ quan nào quy định?",
+        "ground_truth": "Theo khoản 3 Điều 91 Bộ luật Lao động 2019, mức lương tối thiểu do Chính phủ quy định và công bố trên cơ sở khuyến nghị của Hội đồng tiền lương quốc gia."
+    },
+    {
+        "question": "Trường hợp nào người lao động được nghỉ việc riêng mà không hưởng lương?",
+        "ground_truth": "Theo khoản 2 Điều 115 Bộ luật Lao động 2019, người lao động được nghỉ không hưởng lương 01 ngày và phải thông báo với NSDLĐ khi: Ông nội, bà nội, ông ngoại, bà ngoại, anh, chị, em ruột mất; bố hoặc mẹ kết hôn; anh, chị, em ruột kết hôn."
+    },
+    {
+        "question": "Công ty nợ lương bao lâu thì người lao động có quyền đơn phương chấm dứt hợp đồng lao động mà không cần báo trước?",
+        "ground_truth": "Theo điểm b khoản 2 Điều 35 Bộ luật Lao động 2019, người lao động có quyền đơn phương chấm dứt HĐLĐ không cần báo trước nếu không được trả đủ lương hoặc trả lương không đúng thời hạn (trừ trường hợp bất khả kháng theo khoản 4 Điều 97)."
+    },
+    {
+        "question": "Người lao động nước ngoài làm việc tại Việt Nam có bắt buộc phải có giấy phép lao động không?",
+        "ground_truth": "Theo khoản 1 Điều 151 và Điều 152 Bộ luật Lao động 2019, người lao động nước ngoài làm việc tại Việt Nam phải có Giấy phép lao động do cơ quan nhà nước có thẩm quyền cấp, trừ các trường hợp không thuộc diện cấp giấy phép lao động theo Điều 154."
+    },
+    {
+        "question": "Tổng số ngày nghỉ lễ, tết được hưởng nguyên lương trong một năm của người lao động là bao nhiêu ngày?",
+        "ground_truth": "Theo khoản 1 Điều 112 Bộ luật Lao động 2019, người lao động được nghỉ làm việc, hưởng nguyên lương trong những ngày lễ, tết tổng cộng là 11 ngày (kể từ năm 2021 có thêm 1 ngày nghỉ lễ Quốc khánh)."
+    },
+    {
+        "question": "Công ty có phải trả tiền lương những ngày chưa nghỉ phép năm cho người lao động khi thôi việc không?",
+        "ground_truth": "Có. Theo khoản 3 Điều 113 Bộ luật Lao động 2019, trường hợp do thôi việc, bị mất việc làm mà chưa nghỉ hằng năm hoặc chưa nghỉ hết số ngày nghỉ hằng năm thì được người sử dụng lao động thanh toán tiền lương cho những ngày chưa nghỉ."
+    },
+    {
+        "question": "Tiền lương tháng đóng BHXH bắt buộc có bao gồm các khoản trợ cấp ăn trưa, xăng xe không?",
+        "ground_truth": "Không. Theo quy định pháp luật BHXH hiện hành (Thông tư 06/2021/TT-BLĐTBXH), tiền lương tháng đóng BHXH không bao gồm các khoản chế độ và phúc lợi khác như tiền thưởng sáng kiến, tiền ăn giữa ca, các khoản hỗ trợ xăng xe, điện thoại, đi lại, tiền nhà ở, tiền giữ trẻ, nuôi con nhỏ..."
+    }
+]
