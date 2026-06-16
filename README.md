@@ -1,4 +1,4 @@
-# 🤖 Chatbot Tư Vấn Quy Chế & Quy Định Đại học Bách Khoa Hà Nội (HUST)
+#  Chatbot Tư Vấn Quy Chế & Quy Định Đại học Bách Khoa Hà Nội (HUST)
 > Ứng dụng kỹ thuật RAG (Retrieval-Augmented Generation) và Mô hình Ngôn ngữ Lớn (LLM)
 
 <!-- TODO: chèn ảnh screenshot giao diện chatbot -->
