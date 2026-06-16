@@ -1,0 +1,204 @@
+﻿question,answer,contexts,ground_truth,answer_relevancy,faithfulness,context_recall,context_precision
+1 tín chỉ tại ĐHBK Hà Nội tương đương bao nhiêu giờ học?,"① 1 tín chỉ tại Đại học Bách Khoa Hà Nội tương đương với tổng số 15 tuần học, mỗi tuần 50 phút cho một tiết lý thuyết, bài tập, thí nghiệm, thực hành, thực tập, đồ án, tự học, được quy đổi thành tổng số giờ học khoảng 42,5 giờ đến 55 giờ tùy phân bố học phần.
+
+② Theo quy định trong phần ngữ cảnh, tổng số giờ học của một học phần được tính dựa trên số tiết lý thuyết, bài tập, thí nghiệm, thực hành, thực tập, đồ án, tự học, với ví dụ cụ thể: tổng số giờ = (số tiết lý thuyết x 15 + (bài tập/2 + thí nghiệm + thực hành) x 15 giờ) x 50 phút/60 phút + giờ thực tập; 1 tín chỉ học phần tương đương với 15 tuần học (mỗi tuần 50 phút cho một tiết lý thuyết). Ngoài ra, theo hệ thống ECTS, 1 tín chỉ Châu Âu tương đương 30 giờ học tập tổng cộng.
+
+③ Lưu ý: Số giờ học cụ thể có thể thay đổi tùy theo phân bố lý thuyết, bài tập, thực hành của từng học phần; để quy đổi sang tín chỉ ECTS, cần tính tổng số giờ học tập theo quy trình quy đổi đã nêu.",[''],"Một tín chỉ tại ĐHBK Hà Nội tương đương 50 giờ học tập định mức, bao gồm thời gian dự giờ giảng, học có hướng dẫn, tự học, nghiên cứu, trải nghiệm và kiểm tra đánh giá. Trên lớp, 1 TC yêu cầu tối thiểu 15 giờ giảng hoặc 30 giờ thực hành.",0.49310456289144405,0.0,0.0,0.0
+Sinh viên cử nhân hệ chính quy cần tích lũy tối thiểu bao nhiêu tín chỉ trong bao nhiêu năm?,"① Sinh viên cử nhân hệ chính quy cần tích lũy tối thiểu 120 tín chỉ trong thời gian đào tạo từ 3 đến 5 năm.  
+② Theo Điều 5 Quy chế Đào tạo Đại học hệ chính quy, sinh viên phải hoàn thành đủ số tín chỉ quy định của chương trình đào tạo trong khoảng thời gian từ 3 đến 5 năm.  
+③ Lưu ý, thời gian và số tín chỉ có thể thay đổi tùy theo ngành học và chương trình cụ thể, sinh viên nên tham khảo chi tiết trong chương trình đào tạo của ngành mình theo học.",[''],Sinh viên cử nhân hệ chính quy cần tích lũy tối thiểu 132 tín chỉ trong 4 năm học.,0.26462700201187794,0.0,0.0,0.0
+Học phần tiên quyết và học phần học trước khác nhau như thế nào?,"① Học phần tiên quyết là học phần sinh viên phải hoàn thành trước để được đăng ký học học phần tiếp theo, còn học phần học trước là học phần sinh viên có thể học trước nhưng không bắt buộc phải hoàn thành trước khi học học phần khác.
+
+② Theo quy định chung về chương trình đào tạo, học phần tiên quyết là điều kiện bắt buộc để học tiếp các học phần liên quan, trong khi học phần học trước chỉ mang tính chất ưu tiên hoặc hỗ trợ cho việc học các học phần sau.
+
+③ Lưu ý rằng việc xác định học phần tiên quyết hay học phần học trước được quy định cụ thể trong từng chương trình đào tạo của từng ngành học.",[''],Học phần tiên quyết yêu cầu sinh viên phải hoàn thành và có điểm đạt mới được học tiếp. Học phần học trước chỉ cần đăng ký và học xong (dù chưa đạt điểm) mới được đăng ký học phần sau.,0.22286186369975583,0.0,0.0,0.0
+Hai học phần được coi là tương đương khi nội dung chuyên môn trùng lặp bao nhiêu phần trăm?,"① Hai học phần được coi là tương đương khi nội dung chuyên môn trùng lặp từ 70% trở lên.  
+② Theo quy định về công nhận học phần, hai học phần được xem là tương đương khi nội dung chuyên môn có sự trùng lặp ít nhất 70%.  
+③ Lưu ý, việc công nhận học phần tương đương còn phụ thuộc vào quyết định của các cơ quan chức năng của trường và có thể có các điều kiện bổ sung khác.",[''],"Hai học phần được coi là tương đương khi có nội dung chuyên môn trùng lặp tối thiểu 70%, và số tín chỉ của học phần thay thế phải bằng hoặc lớn hơn học phần gốc.",0.30649590969638346,0.0,0.0,0.0
+Điểm học phần 7.5/10 tương đương điểm chữ và điểm thang 4 là bao nhiêu?,"① Điểm học phần 7,5/10 tương đương điểm chữ B và điểm thang 4 là 3,0.  
+② Theo Điều 5.Điểm học phần (5), điểm từ 7,0 đến 7,9 được quy đổi thành điểm chữ B và điểm số quy đổi là 3,0.  
+③ Lưu ý: Điểm học phần được làm tròn tới một chữ số thập phân và điểm đạt tối thiểu đối với chương trình cử nhân, kỹ sư là từ D trở lên, nên điểm 7,5 hoàn toàn đạt yêu cầu.",[''],"Điểm 7.5 thuộc khoảng 7,0–7,9 nên được quy đổi thành điểm chữ B, tương đương 3,0 điểm theo thang 4.",0.46153272473478624,0.0,0.0,0.0
+Điểm liệt của học phần đồ án tốt nghiệp cử nhân/kỹ sư là bao nhiêu?,"① Điểm liệt của học phần đồ án tốt nghiệp cử nhân/kỹ sư là điểm dưới 5 do thành viên hội đồng cho, khi đó điểm bảo vệ chỉ được tính tối đa là 4,9 điểm.  
+② Theo Điều 13.Đồ án/khóa luận tốt nghiệp đại học (5), mục 2.d: ""Nếu điểm của một thành viên hội đồng cho dưới 5 thì điểm bảo vệ là điểm liệt và khi đó chỉ được tính tối đa là 4,9 điểm.""  
+③ Lưu ý: Nếu điểm của người hướng dẫn hoặc phản biện dưới 5 thì sinh viên không được phép tham gia bảo vệ ĐATN, điểm bảo vệ sẽ là 0.",[''],"Điểm liệt của học phần đồ án tốt nghiệp/khóa luận tốt nghiệp cử nhân và đồ án tốt nghiệp kỹ sư là điểm dưới 5. Với các học phần khác, điểm liệt là dưới 3.",0.29920610199261577,0.0,0.0,0.0
+Sinh viên có được học lại học phần đã đạt để cải thiện điểm không?,"① Sinh viên được phép đăng ký học lại học phần đã đạt để cải thiện điểm.  
+② Theo Điều 10, mục 2 [Học lại và học cải thiện điểm], sinh viên được phép học lại học phần đã đạt để cải thiện điểm; điểm lần cao nhất sẽ được công nhận là điểm chính thức của học phần.  
+③ Lưu ý, nếu số lượng sinh viên đăng ký học lại không đủ để mở lớp, sinh viên có thể phải làm cam kết đóng góp phí học lại theo quy định của Nhà trường.",[''],Được. Sinh viên có thể đăng ký học lại học phần đã có điểm đạt để cải thiện điểm trung bình tích lũy (CPA). Điểm lần cao nhất trong các lần học sẽ được công nhận là điểm chính thức.,0.37470430430429963,0.0,0.0,0.0
+Điểm I trong bảng điểm có nghĩa là gì?,"① Điểm I trong bảng điểm có nghĩa là điểm học phần chưa hoàn thiện do được hoãn thi đúng quy định.  
+② Theo Điều 5.Điểm học phần (5), mục 9.a: ""Điểm I: điểm học phần chưa hoàn thiện do được hoãn thi đúng quy định.""  
+③ Lưu ý: Điểm I không được quy đổi thành điểm số để tính điểm trung bình học tập.",[''],Điểm I là điểm học phần chưa hoàn thiện do sinh viên được hoãn thi đúng quy định. Điểm I không được quy đổi thành điểm số để tính điểm trung bình học tập.,0.43497279145010453,0.0,0.0,0.0
+Sinh viên đi học đầy đủ (không vắng buổi nào) được cộng bao nhiêu điểm vào điểm quá trình?,"① Sinh viên đi học đầy đủ (không vắng buổi nào) được cộng 1 điểm vào điểm quá trình.
+
+② Theo Điều 7 Quy chế Đánh giá kết quả học tập của sinh viên Đại học Bách Khoa Hà Nội, sinh viên có điểm chuyên cần được cộng thêm điểm vào điểm quá trình, trong đó đi học đầy đủ không vắng buổi nào được cộng 1 điểm.
+
+③ Lưu ý, mức điểm cộng có thể khác nhau tùy theo quy định cụ thể của từng môn học hoặc khoa, sinh viên nên kiểm tra thông báo chi tiết từ giảng viên hoặc khoa.",[''],Sinh viên không vắng mặt buổi nào được cộng +1 điểm vào điểm quá trình của học phần.,0.5141360129298181,0.0,0.0,0.0
+Vắng mặt từ 5 buổi trở lên thì điểm quá trình bị trừ bao nhiêu điểm?,"① Vắng mặt từ 5 buổi trở lên thì điểm quá trình bị trừ 2 điểm.  
+② Theo Điều 5.2 [Điểm học phần], bảng quy định điểm quá trình được cộng/trừ dựa trên số lần vắng mặt như sau: ≥ 5 lần vắng mặt bị trừ 2 điểm.  
+③ Lưu ý điểm quá trình là một phần của điểm học phần và được tính theo thang 10, việc trừ điểm do vắng mặt ảnh hưởng trực tiếp đến điểm quá trình của học phần đó.",[''],"Nếu vắng mặt từ 5 lần trở lên, điểm quá trình bị trừ 2 điểm.",0.1950540736590761,0.0,0.0,0.0
+Điểm cuối kỳ có trọng số tối đa bao nhiêu trong điểm học phần từ 2 TC trở lên?,"① Điểm cuối kỳ có trọng số tối đa là 0,8 trong điểm học phần từ 2 tín chỉ trở lên.  
+② Theo Điều 5.Điểm học phần, khoản 1: ""Một học phần từ 2 TC trở lên được đánh giá từ hai điểm thành phần là điểm quá trình và điểm cuối kỳ, trong đó điểm cuối kỳ có trọng số từ 0,5 đến 0,8 theo quy định trong đề cương chi tiết học phần.""  
+③ Lưu ý: Trọng số cụ thể trong khoảng này sẽ được quy định chi tiết trong đề cương học phần từng môn học.",[''],"Điểm cuối kỳ có trọng số từ 0,5 đến 0,8 (tối đa 80%) trong tổng điểm học phần từ 2 TC trở lên, theo quy định cụ thể trong đề cương chi tiết.",0.39674061141234046,0.0,0.0,0.0
+Sinh viên hoãn thi cuối kỳ có bao nhiêu học kỳ để hoàn thiện điểm?,"① Sinh viên hoãn thi cuối kỳ sẽ được tính điểm I (chưa hoàn thiện) và cần hoàn thiện điểm trong các học kỳ tiếp theo, tuy nhiên ngữ cảnh không nêu rõ số học kỳ cụ thể để hoàn thiện điểm.  
+② Theo Điều 8.Đánh giá kết quả học phần (6), mục 5.a: ""Điểm I: Điểm học phần chưa hoàn thiện do sinh viên được phép hoãn thi đúng quy định.""  
+③ Vì không có thông tin cụ thể về thời hạn hoàn thiện điểm I trong ngữ cảnh, sinh viên nên liên hệ Phòng Đào tạo hoặc tham khảo quy định chi tiết của trường để biết thời gian cụ thể hoàn thiện điểm hoãn thi.",[''],"Sinh viên được phép hoãn thi và phải thi bù trong vòng 2 học kỳ chính tiếp theo. Nếu không thi trong thời hạn này, học phần sẽ bị điểm F.",0.0,0.2857142857142857,0.0,0.0
+Thời hạn đề nghị phúc tra hoặc khiếu nại điểm là bao lâu sau khi có điểm?,"① Thời hạn để sinh viên đề nghị phúc tra hoặc khiếu nại điểm là trong vòng 1 tuần (7 ngày) kể từ khi công bố điểm.
+
+② Theo Điều 10.Phúc tra và khiếu nại điểm, mục 1: sinh viên có thể làm đơn đề nghị phúc tra hoặc khiếu nại lên Khoa, Viện trong thời hạn 1 tuần kể từ khi công bố điểm; đồng thời theo Điều 13.Phúc tra và khiếu nại điểm, mục 1: sinh viên có thể làm đơn đề nghị phúc tra đến Viện ĐTLT trong thời hạn 7 ngày kể từ khi công bố điểm.
+
+③ Lưu ý, riêng đối với các hình thức thi vấn đáp hoặc bảo vệ thì không xem xét đơn đề nghị phúc tra.",[''],Sinh viên có thể đề nghị phúc tra hoặc khiếu nại điểm trong vòng 7 ngày kể từ khi điểm được cập nhật vào tài khoản học tập.,0.3214028730233876,0.0,0.0,0.0
+Hình thức thi nào không được áp dụng phúc tra điểm?,"① Hình thức thi vấn đáp hoặc bảo vệ không được áp dụng phúc tra điểm.  
+② Theo Điều 10 và Điều 13 về Phúc tra và khiếu nại điểm, riêng đối với các hình thức thi vấn đáp hoặc bảo vệ không xem xét đơn đề nghị phúc tra.  
+③ Lưu ý sinh viên cần liên hệ trực tiếp với giảng viên hoặc Khoa, Viện nếu có thắc mắc về điểm các hình thức thi này.",[''],Không áp dụng phúc tra hoặc khiếu nại điểm đối với các học phần thi theo hình thức vấn đáp hoặc đánh giá trước hội đồng.,0.14621547524376582,0.0,0.0,0.0
+Sinh viên cử nhân được phép chậm tiến độ tối đa bao nhiêu học kỳ?,"① Sinh viên cử nhân được phép chậm tiến độ tối đa 5 học kỳ chính so với kế hoạch học tập chuẩn.  
+② Theo khoản 3, Điều 3.Thời gian và kế hoạch học tập: ""Người học được phép tốt nghiệp chậm hơn so với thời gian theo kế hoạch học tập chuẩn, nhưng thời gian chậm tiến độ không được vượt quá 5 học kỳ chính đối với các chương trình cấp bằng cử nhân.""  
+③ Lưu ý: Thời gian nghỉ ốm dài hạn có phép không tính vào thời gian chậm tiến độ nếu tổng cộng không vượt quá 2 năm; thời gian nghỉ trên 2 năm phải tính vào thời gian chậm tiến độ (Điều 6).",[''],"Sinh viên cử nhân được phép chậm tiến độ tối đa 5 học kỳ chính so với kế hoạch học tập chuẩn. Với chương trình kỹ sư và thạc sĩ, tối đa là 2 học kỳ chính.",0.41148347834718585,0.0,0.0,0.0
+Sinh viên không nộp học phí đúng hạn sẽ bị xử lý như thế nào?,"① Sinh viên không nộp học phí đúng hạn sẽ bị hủy quyền đăng ký học phần và tính học phí theo quy định tại khoản 4 Điều 9 Quy chế. Việc tính học phí trong một số trường hợp đặc biệt sẽ do Giám đốc ĐHBK Hà Nội quyết định.
+
+② Theo Điều 16, khoản 5 Quy chế Nghỉ học tạm thời và tự nguyện thôi học: ""sẽ bị hủy và tính học phí theo quy định tại khoản 4 Điều 9 Quy chế này, ngoại trừ các trường hợp được quy định tại điểm b, điểm c khoản 2 Điều 16 Quy chế này sẽ do Giám đốc ĐHBK Hà Nội quyết định việc tính học phí.""
+
+③ Lưu ý: Trường hợp cụ thể về việc tính học phí có thể khác nhau tùy theo điều kiện quy định tại khoản 2 Điều 16, do Giám đốc trường quyết định. Sinh viên nên liên hệ Phòng Đào tạo để được hướng dẫn chi tiết.",[''],Sinh viên không nộp đủ học phí sau thời gian quy định sẽ bị đình chỉ đăng ký học tập một học kỳ kế tiếp.,0.5026896439752274,0.0,0.0,0.0
+Rút học phần trong 7 tuần đầu học kỳ thì phải đóng bao nhiêu phần trăm học phí?,"① Khi sinh viên rút học phần trong 7 tuần đầu của học kỳ và được giải quyết theo nguyện vọng, phải đóng 50% học phí của học phần đó.
+
+② Theo khoản 3 Điều 9 [Học phí]: ""Người học thuộc CTĐT cử nhân, kỹ sư có đơn đề nghị rút học phần trong khoảng thời gian 7 tuần đầu của học kỳ, nếu được giải quyết theo nguyện vọng thì chỉ đóng một nửa (50%) học phí của học phần đó.""
+
+③ Lưu ý, nếu rút học phần trong tuần đầu tiên của học kỳ thứ 2 và được giải quyết, thì không phải đóng học phí của học phần đó; quy định này không áp dụng với học phần học ở học kỳ hè.",[''],Rút học phần trong 7 tuần đầu học kỳ (và được chấp thuận) thì chỉ đóng 50% học phí của học phần đó. Nếu rút trong tuần đầu của học kỳ 2 thì không phải đóng học phí.,0.41665657342802503,0.0,0.0,0.0
+Những sinh viên nào không được chuyển cơ sở đào tạo?,"① Sinh viên năm thứ nhất, sinh viên năm cuối của khóa học và sinh viên đang bị xem xét buộc thôi học không được chuyển cơ sở đào tạo.  
+
+② Theo Điều 8, khoản 1 [Chuyển cơ sở đào tạo khác]: ""Sinh viên năm thứ nhất, sinh viên năm cuối của khóa học và sinh viên đang bị xem xét buộc thôi học không được chuyển cơ sở đào tạo.""  
+
+③ Lưu ý: Quy định này áp dụng riêng cho sinh viên đại học; học viên thạc sĩ và nghiên cứu sinh có quy định riêng về điều kiện chuyển cơ sở đào tạo.",[''],"Ba nhóm không được chuyển cơ sở đào tạo: sinh viên năm thứ nhất, sinh viên năm cuối khóa học, và sinh viên đang bị xem xét buộc thôi học.",0.5442745867246609,0.0,0.0,0.0
+Một năm học tại ĐHBK Hà Nội có bao nhiêu học kỳ?,"① Một năm học tại ĐHBK Hà Nội gồm ba học kỳ: hai học kỳ chính và một học kỳ hè.  
+② Theo Điều 3, mục 1 [Thời gian và kế hoạch học tập]: ""Một năm học bao gồm hai học kỳ chính và một học kỳ hè.""  
+③ Học kỳ hè được tổ chức theo yêu cầu của người học và khả năng bố trí giảng viên của trường/khoa/viện phụ trách giảng dạy.",[''],Một năm học tại ĐHBK Hà Nội gồm 2 học kỳ chính và 1 học kỳ hè (học kỳ hè tổ chức theo yêu cầu của người học).,0.47389982340900455,0.0,0.0,0.0
+CTĐT tích hợp cử nhân-kỹ sư tại ĐHBK có tổng thời gian và khối lượng học tập là bao nhiêu?,"① Chương trình đào tạo tích hợp cử nhân-kỹ sư tại ĐHBK Hà Nội có tổng thời gian thiết kế là 5,5 năm và khối lượng học tập là 180 tín chỉ.  
+② Theo Điều 2, Ngành đào tạo, chương trình đào tạo, khoản (5): ""CTĐT tích hợp cử nhân-kỹ sư, cử nhân-thạc sĩ có thời gian thiết kế là 5,5 năm và khối lượng học tập 180 TC.""  
+③ Chương trình tích hợp gồm hai bậc trình độ: Cử nhân (4 năm, cấp bằng cử nhân) và kỹ sư (1,5 năm, cấp bằng kỹ sư trình độ bậc 7).",[''],"CTĐT tích hợp cử nhân-kỹ sư tại ĐHBK có tổng thời gian 5,5 năm và khối lượng 180 tín chỉ, gồm 4 năm bậc cử nhân và 1,5 năm bậc kỹ sư.",0.45544143279851085,0.0,0.0,0.0
+Chương trình đào tạo kỹ sư chuyên sâu (KSCS) tại ĐHBK có tổng bao nhiêu tín chỉ và thời gian học bao lâu?,"① Chương trình đào tạo kỹ sư chuyên sâu (KSCS) tại Đại học Bách Khoa Hà Nội có tổng khối lượng học tập là 60 tín chỉ và thời gian học tập toàn khóa theo kế hoạch chuẩn là 2 năm.  
+② Theo Điều II, mục 1 Khung chương trình đào tạo kỹ sư chuyên sâu: ""CTĐT KSCS có khối lượng học tập 60 tín chỉ đối với người học đã tốt nghiệp đại học. Thời gian học tập toàn khóa theo kế hoạch học tập chuẩn là 2 năm.""  
+③ Lưu ý: Đây là chương trình dành cho người đã tốt nghiệp đại học và cấp bằng kỹ sư bậc 7 theo Khung năng lực quốc gia Việt Nam.",[''],"Chương trình KSCS có 60 tín chỉ, thời gian đào tạo 2 năm, dành cho người đã tốt nghiệp đại học. Người tốt nghiệp được cấp bằng kỹ sư Bậc 7 theo Khung năng lực quốc gia.",0.46093531151590966,0.0,0.0,0.0
+Đồ án tốt nghiệp kỹ sư trong CTĐT KSCS có bao nhiêu tín chỉ?,"① Đồ án tốt nghiệp kỹ sư trong Chương trình đào tạo Kỹ sư chuyên sâu (CTĐT KSCS) có 9 tín chỉ.  
+② Theo mục 4 phần II Khung chương trình đào tạo kỹ sư chuyên sâu, học phần Đồ án tốt nghiệp kỹ sư có số tín chỉ là 09, đề tài tốt nghiệp gắn liền với lĩnh vực ứng dụng và phù hợp với nội dung thực tập kỹ sư.  
+③ Lưu ý, đề tài tốt nghiệp chỉ được giao khi học viên đã đáp ứng đủ điều kiện học phần và được công nhận là học viên chính thức của CTĐT kỹ sư (theo Điều 22).",[''],"Đồ án tốt nghiệp kỹ sư trong CTĐT KSCS có 9 tín chỉ, đề tài gắn liền với lĩnh vực ứng dụng và phù hợp với nội dung thực tập kỹ sư.",0.3168018395476396,0.0,0.0,0.0
+Thực tập kỹ sư trong CTĐT KSCS có bao nhiêu tín chỉ và thực hiện ở đâu?,"① Thực tập kỹ sư trong Chương trình đào tạo kỹ sư chuyên sâu (CTĐT KSCS) có 6 tín chỉ và được thực hiện tại các cơ sở công nghiệp.  
+② Theo mục (4) Khung quy định của CTĐT KSCS: Thực tập kỹ sư có 06 tín chỉ và thực hiện tại các cơ sở công nghiệp.  
+③ Lưu ý: Thực tập phải đảm bảo thời lượng theo quy định và được thực hiện tại doanh nghiệp hoặc cơ sở công nghiệp phù hợp với chuyên ngành.",[''],Thực tập kỹ sư trong CTĐT KSCS có 6 tín chỉ và được thực hiện tại các cơ sở công nghiệp.,0.2458406010800466,0.0,0.0,0.0
+Người học KSCS đã tốt nghiệp cử nhân theo chương trình tích hợp của ĐHBK được miễn tối đa bao nhiêu tín chỉ?,"① Người học kỹ sư chuyên sâu (KSCS) đã tốt nghiệp cử nhân theo chương trình tích hợp của ĐHBK Hà Nội được đăng ký học trước và miễn tối đa 15 tín chỉ các học phần thuộc chương trình đào tạo thạc sĩ.  
+② Theo Điều 28, mục 2.c [Điều 28. Học bổ sung, công nhận tín chỉ]: ""Học viên học chương trình tích hợp cử nhân-thạc sĩ của ĐHBK Hà Nội được đăng ký học trước tối đa 15 TC các học phần thuộc CTĐT thạc sĩ.""  
+③ Lưu ý: Các học phần được công nhận không được sử dụng để tính điểm trung bình tích lũy toàn khóa.",[''],Người học đã tốt nghiệp cử nhân theo chương trình tích hợp cử nhân-KSCS của ĐHBK được miễn tối đa 12 tín chỉ thuộc khối kiến thức định hướng chuyên ngành. Tổng số tín chỉ được công nhận không vượt quá 30 tín chỉ.,0.3809069484111065,0.0,0.0,0.0
+Chuẩn đầu ra ngoại ngữ của người tốt nghiệp chương trình KSCS là bậc mấy?,"① Chuẩn đầu ra ngoại ngữ của người tốt nghiệp chương trình Kỹ sư chất lượng cao (KSCS) là đạt trình độ tối thiểu Bậc 3 theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam.
+
+② Theo Điều 3 mục 4 [Quy định chuẩn ngoại ngữ đầu ra với CTĐT Tiếng Trung Khoa học và Công nghệ], chuẩn ngoại ngữ đầu ra yêu cầu với CTĐT chuẩn (trừ các CTĐT nhóm ngành ngôn ngữ) là đạt chứng chỉ trình độ tối thiểu Bậc 3.
+
+③ Lưu ý: Trình độ Bậc 3 tương đương với các chứng chỉ như HSK3 (đối với tiếng Trung) hoặc các bậc tương đương trong Khung năng lực ngoại ngữ 6 bậc của Việt Nam; sinh viên cần hoàn thành các học phần hoặc đạt chứng chỉ tương ứng để được công nhận đạt chuẩn đầu ra.",[''],Chuẩn đầu ra ngoại ngữ của người tốt nghiệp KSCS phải đạt tương đương Bậc 4/6 theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam.,0.34389475792400126,1.0,0.0,0.0
+Tổng tín chỉ của khối chuyên ngành cốt lõi và khối tự chọn trong CTĐT KSCS là bao nhiêu?,"① Tổng tín chỉ của khối chuyên ngành cốt lõi và khối tự chọn trong CTĐT KSCS là 33 tín chỉ.  
+② Theo Điều II mục 4 phần (3) Khung chương trình đào tạo kỹ sư chuyên sâu, yêu cầu tổng tín chỉ của khối chuyên ngành cốt lõi (19-20 tín chỉ) và khối tự chọn (13-14 tín chỉ) là 33 tín chỉ.  
+③ Lưu ý: Khối tự chọn gồm hai phần là tự chọn mô đun và tự chọn chung, trong đó mỗi mô đun tự chọn bắt buộc có một đồ án môn học.",[''],Tổng tín chỉ của khối chuyên ngành cốt lõi (19–20 TC) và khối tự chọn (13–14 TC) phải đạt đúng 33 tín chỉ.,0.35288030245286994,0.0,0.0,0.0
+Chuẩn đầu ra ngoại ngữ tiếng Anh khi xét tốt nghiệp của sinh viên CTĐT chuẩn (từ khóa 70) là bậc mấy?,"① Chuẩn đầu ra ngoại ngữ tiếng Anh khi xét tốt nghiệp của sinh viên CTĐT chuẩn là đạt trình độ tối thiểu Bậc 3.
+
+② Theo Bảng 3.2 Yêu cầu trình độ tiếng Anh theo học kỳ và chuẩn ngoại ngữ đầu ra khi xét tốt nghiệp: ""Chuẩn đầu ra khi xét tốt nghiệp với CTĐT chuẩn (trừ các CTĐT nhóm ngành ngôn ngữ) là đạt chứng chỉ trình độ tối thiểu Bậc 3 (theo Bảng 2.1 của Phụ lục II)"".
+
+③ Lưu ý: Chuẩn này không áp dụng cho các CTĐT tài năng hoặc chương trình hợp tác quốc tế có quy định riêng.",[''],Sinh viên CTĐT chuẩn (trừ ngành ngôn ngữ) cần đạt chứng chỉ tối thiểu Bậc 3 theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam khi xét tốt nghiệp.,0.4677369093374957,0.0,0.0,0.0
+Chứng chỉ tiếng Anh để xét chuẩn ngoại ngữ đầu ra phải đánh giá đủ bao nhiêu kỹ năng và có hiệu lực trong bao lâu?,"① Chứng chỉ tiếng Anh để xét chuẩn ngoại ngữ đầu ra phải đánh giá đầy đủ 4 kỹ năng nghe, nói, đọc, viết và có hiệu lực trong vòng 2 năm tính đến thời điểm xét chuẩn ngoại ngữ đầu ra.  
+② Theo Điều 5, mục 2 Quy định về chuẩn ngoại ngữ đầu ra: ""Chứng chỉ tiếng Anh phải đánh giá đầy đủ 4 kỹ năng nghe, nói, đọc, viết; đồng thời phải được cấp trong vòng 2 năm tính đến thời điểm xét chuẩn ngoại ngữ đầu ra và còn hiệu lực tại thời điểm xét.""  
+③ Lưu ý: Chứng chỉ phải còn hiệu lực tại thời điểm xét và được cấp không quá 2 năm trước đó để đảm bảo tính hợp lệ khi xét chuẩn ngoại ngữ đầu ra.",[''],"Chứng chỉ tiếng Anh phải đánh giá đủ 4 kỹ năng (nghe, nói, đọc, viết), được cấp trong vòng 2 năm tính đến thời điểm xét và còn hiệu lực tại thời điểm xét.",0.4346758677564526,0.0,0.0,0.0
+Chuẩn đầu ra ngoại ngữ của sinh viên chương trình ELITECH (tiên tiến tăng cường ngoại ngữ tiếng Anh) là bậc mấy?,"① Chuẩn đầu ra ngoại ngữ của sinh viên chương trình ELITECH (tiên tiến tăng cường ngoại ngữ tiếng Anh) là đạt chứng chỉ tiếng Anh quốc tế 4 kỹ năng hoặc chứng chỉ VSTEP tương đương, có giá trị trong vòng 2 năm tính đến thời điểm xét chuẩn. Theo bảng quy đổi, chuẩn này tương đương bậc 3.2 (B2) trở lên theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam.
+
+② Theo Điều 5.2 Quy định về chuẩn ngoại ngữ đầu ra: ""Chứng chỉ tiếng Anh phải đánh giá đầy đủ 4 kỹ năng nghe, nói, đọc, viết; đồng thời phải được cấp trong vòng 2 năm tính đến thời điểm xét chuẩn ngoại ngữ đầu ra và còn hiệu lực tại thời điểm xét."" và Điều 4.4: ""Sinh viên thuộc các chương trình đào tạo Elitech... có ngoại ngữ yêu cầu là tiếng Anh... phải có chứng chỉ tiếng Anh quốc tế 4 kỹ năng hoặc chứng chỉ VSTEP tương đương để được xét công nhận đạt chuẩn ngoại ngữ đầu ra."" Bảng quy đổi tại Phụ lục II cho thấy mức B2 (bậc 3.2) là chuẩn tương đương.
+
+③ Lưu ý: Sinh viên cần đảm bảo chứng chỉ còn hiệu lực trong vòng 2 năm tính đến thời điểm xét chuẩn và đạt đủ 4 kỹ năng nghe, nói, đọc, viết. Ban Đào tạo có thể xem xét các trường hợp ngoại lệ theo Điều 6.",[''],Sinh viên chương trình ELITECH (tiên tiến tăng cường ngoại ngữ tiếng Anh) cần đạt chuẩn đầu ra tối thiểu Bậc 4 khi xét tốt nghiệp.,0.6734861557568602,0.0,0.0,0.0
+Điểm IELTS Academic bao nhiêu tương đương Bậc 4 theo quy đổi của ĐHBK Hà Nội (2025)?,"① Điểm IELTS Academic tương đương Bậc 4 theo quy đổi của Đại học Bách Khoa Hà Nội là từ 5.5 đến dưới 6.5.
+
+② Theo Bảng quy đổi tương đương các chứng chỉ tiếng Anh (Điều 5, Yêu cầu về chuẩn ngoại ngữ đầu ra), Bậc 4 (tương đương CEFR B2) có mức điểm IELTS Academic từ 5.5 đến 6.5.
+
+③ Lưu ý: Đây là mức điểm chuẩn để đánh giá năng lực ngoại ngữ đầu ra theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam (NLNNVN). Các trường hợp đặc biệt hoặc quy đổi khác có thể do Trung tâm Đào tạo ngoại ngữ đề xuất và Ban Đào tạo trình Giám đốc Đại học quyết định.",[''],IELTS Academic từ 5.5 đến 6.5 tương đương Bậc 4 theo bảng quy đổi của ĐHBK Hà Nội (2025).,0.6883619870993393,0.0,0.0,0.0
+Điểm TOEIC Placement của ĐHBK tổ chức có được dùng để xét chuẩn ngoại ngữ đầu ra không?,"① Điểm TOEIC Placement do Đại học Bách Khoa Hà Nội tổ chức không được sử dụng để xét chuẩn ngoại ngữ đầu ra.  
+② Theo Điều 2 về Điều kiện xét quy đổi tương đương chứng chỉ và miễn học: ""Kết quả bài kiểm tra TOEIC Placement do Đại học Bách khoa Hà Nội phối hợp tổ chức chỉ được sử dụng để phân loại trình độ tiếng Anh cho mục đích xếp lớp và xét miễn học các học phần thuộc khối ngoại ngữ cơ bản, không sử dụng để xét đạt chuẩn ngoại ngữ đầu ra.""  
+③ Lưu ý: Sinh viên cần có chứng chỉ tiếng Anh quốc gia hoặc quốc tế đánh giá đầy đủ 4 kỹ năng để xét đạt chuẩn ngoại ngữ đầu ra theo quy định dành cho sinh viên từ khóa 69 trở đi.",[''],"Không. Điểm TOEIC Placement do ĐHBK tổ chức chỉ dùng để phân loại, xếp lớp và xét miễn học phần ngoại ngữ cơ bản; không được dùng để xét chuẩn ngoại ngữ đầu ra.",0.653937350896217,0.0,0.0,0.0
+Sinh viên từ khóa 70 đạt Bậc 3 trở lên khi vào trường thì thuộc nhóm mấy và được miễn những học phần tiếng Anh nào?,"① Sinh viên khóa 70 đạt trình độ Bậc 3 trở lên khi vào trường thuộc Nhóm 6 và được miễn học toàn bộ các học phần tiếng Anh cơ sở 1 đến 5 (FL1131 đến FL1135).
+
+② Theo Phụ lục III, Bảng 3.1, cột Nhóm 6 (đạt trình độ Bậc 3 trở lên) ghi ""M"" (miễn học) cho tất cả các học phần tiếng Anh cơ sở 1, 2, 3, 4, 5 (FL1131, FL1132, FL1133, FL1134, FL1135).
+
+③ Lưu ý: Sinh viên cần đảm bảo trình độ Bậc 3 theo quy định tại Bảng 2.1 của Phụ lục II và chứng chỉ tiếng Anh phải còn hiệu lực trong vòng 2 năm tính đến thời điểm xét miễn học.",[''],"Sinh viên đạt trình độ Bậc 3 trở lên thuộc Nhóm 6 và được miễn toàn bộ 5 học phần tiếng Anh cơ bản (FL1131, FL1132, FL1133, FL1134, FL1135), ghi điểm R.",0.35405078761825354,0.0,0.0,0.0
+Sinh viên chương trình Việt-Pháp PFIEV cần đạt chuẩn tiếng Pháp đầu ra bậc mấy?,"① Sinh viên chương trình Việt-Pháp PFIEV cần đạt chuẩn tiếng Pháp đầu ra tối thiểu bậc DELF B1.
+
+② Theo Bảng 5.2 Yêu cầu trình độ tiếng Pháp theo học kỳ và chuẩn ngoại ngữ đầu ra khi xét tốt nghiệp, mục ""Chuẩn đầu ra khi xét tốt nghiệp cử nhân"" yêu cầu sinh viên CTĐT Việt-Pháp PFIEV phải đạt trình độ tối thiểu DELF B1 hoặc tương đương.
+
+③ Lưu ý, đối với xét tốt nghiệp kỹ sư chuyên sâu, sinh viên phải đạt trình độ tối thiểu DELF B2 hoặc tương đương.",[''],"Sinh viên PFIEV cần đạt tối thiểu DELF B1 (tương đương Bậc 3) khi tốt nghiệp cử nhân, và DELF B2 (tương đương Bậc 4) hoặc chứng chỉ tiếng Anh Bậc 4 khi tốt nghiệp kỹ sư chuyên sâu.",0.7009317466204249,0.0,0.0,0.0
+Học phí một tín chỉ của ngành Khoa học máy tính (CTĐT chuẩn) năm học 2025-2026 là bao nhiêu?,"① Học phí một tín chỉ của ngành Khoa học máy tính (chương trình đào tạo chuẩn) năm học 2025-2026 là 630 nghìn đồng.  
+② Theo Phụ lục I kèm theo Quyết định phê duyệt mức học phí năm học 2025-2026, mục I.1) Các chương trình đào tạo chuẩn, ngành Khoa học máy tính có mức học phí 630 nghìn đồng/tín chỉ học phí.  
+③ Lưu ý mức học phí này áp dụng cho các học phần nằm trong khung chương trình đào tạo của 2 học kỳ chính trong năm học.",[''],Học phí ngành Khoa học máy tính (CTĐT chuẩn) năm học 2025-2026 là 630 nghìn đồng/tín chỉ học phí.,0.5150694169814012,0.0,0.0,0.0
+Học phí của chương trình tiên tiến Khoa học dữ liệu và Trí tuệ nhân tạo (DSAI) là bao nhiêu mỗi tín chỉ?,"① Học phí của chương trình tiên tiến Khoa học dữ liệu và Trí tuệ nhân tạo (DSAI) là 1.020 nghìn đồng cho mỗi tín chỉ học phần khác và 700 nghìn đồng cho mỗi tín chỉ các học phần Lý luận chính trị, Giáo dục thể chất, Quốc phòng-An ninh và Tiếng Anh cơ bản, cơ sở.  
+② Theo Phụ lục I kèm theo Quyết định phê duyệt mức học phí năm học 2025-2026, mục I.2) Các chương trình đào tạo đặc biệt và chương trình ELITECH, chương trình tiên tiến Khoa học dữ liệu và Trí tuệ nhân tạo có mức học phí 700 nghìn đồng/tín chỉ cho các học phần LLCT, GDTC, GDQP-AN, Tiếng Anh cơ bản, cơ sở và 1.020 nghìn đồng/tín chỉ cho các học phần khác.  
+③ Lưu ý mức học phí này áp dụng cho năm học 2025-2026 và được tính theo số tín chỉ học phí của từng học phần sinh viên đăng ký.",[''],Học phí của chương trình tiên tiến Khoa học dữ liệu và Trí tuệ nhân tạo là 1.020 nghìn đồng/tín chỉ học phí cho các học phần chuyên ngành.,0.6218303666610355,0.0,0.0,0.0
+Học phí ngành Kỹ thuật hóa học (CTĐT chuẩn) năm học 2025-2026 là bao nhiêu?,"① Học phí ngành Kỹ thuật hóa học (chương trình đào tạo chuẩn) năm học 2025-2026 là 550 nghìn đồng cho mỗi tín chỉ học phí.  
+② Theo Phụ lục I kèm theo Quyết định phê duyệt mức học phí năm học 2025-2026, ngành Kỹ thuật hóa học thuộc nhóm các chương trình đào tạo chuẩn với mức học phí 550 nghìn đồng/tín chỉ.  
+③ Lưu ý mức học phí này áp dụng cho các học phần nằm trong khung chương trình đào tạo của 2 học kỳ chính trong năm học.",[''],Học phí ngành Kỹ thuật hóa học (CTĐT chuẩn) năm học 2025-2026 là 550 nghìn đồng/tín chỉ học phí.,0.5358803969949242,0.0,0.0,0.0
+Học phí của chương trình Công nghệ thông tin Global ICT năm học 2025-2026 là bao nhiêu?,"① Học phí chương trình Công nghệ thông tin Global ICT năm học 2025-2026 là 700 nghìn đồng/tín chỉ đối với các học phần Lý luận chính trị, Giáo dục thể chất, GD Quốc phòng-An ninh và 850 nghìn đồng/tín chỉ đối với các học phần khác.
+
+② Theo Phụ lục I Quyết định phê duyệt mức học phí năm học 2025-2026, mục I.2) Các chương trình đào tạo đặc biệt và chương trình ELITECH, chương trình Công nghệ thông tin: Việt-Nhật, Global ICT có mức học phí 700 nghìn đồng/tín chỉ cho các học phần LLCT, GDTC, GDQP-AN và 850 nghìn đồng/tín chỉ cho các học phần còn lại.
+
+③ Lưu ý mức học phí này áp dụng cho mỗi tín chỉ học phí của học phần sinh viên đăng ký trong học kỳ.",[''],"Học phí chương trình Global ICT: 700 nghìn đồng/TC cho học phần LLCT, GDTC, GDQP-AN và tiếng Anh cơ sở; 850 nghìn đồng/TC cho các học phần chuyên ngành khác.",0.7072044018372082,0.0,0.0,0.0
+Sinh viên tự liên hệ cơ sở thực tập ngoài ĐHBK thì cần cung cấp tài liệu gì?,"① Sinh viên tự liên hệ cơ sở thực tập ngoài ĐHBK cần cung cấp văn bản đồng ý tiếp nhận của cơ sở thực tập và đồng ý với đề cương thực tập.
+
+② Theo mục 3 phần (9) Hướng dẫn triển khai công tác thực tập tại các cơ sở ngoài đại học, người học phải cung cấp văn bản đồng ý tiếp nhận của cơ sở thực tập và đồng ý với đề cương thực tập.
+
+③ Lưu ý, trước khi bắt đầu thực tập, người học cần trao đổi với người hướng dẫn tại cơ sở thực tập để đảm bảo hoàn thành các nội dung thực tập theo yêu cầu.",[''],"Khi tự liên hệ cơ sở thực tập, sinh viên phải cung cấp văn bản đồng ý tiếp nhận của cơ sở thực tập và đồng ý với đề cương thực tập để trường/viện xem xét, quyết định.",0.40433778170829404,0.0,0.0,0.0
+Cơ sở thực tập phải đảm bảo những yêu cầu pháp lý tối thiểu nào?,"① Cơ sở thực tập phải có đăng ký kinh doanh, có ngành nghề hoạt động phù hợp hoặc có chức năng giáo dục đào tạo, và có địa chỉ đăng ký hoạt động.
+
+② Theo Điều H.1.a Hướng dẫn tổ chức thực tập tại các cơ sở trong nước: ""Cơ sở thực tập phải được đảm bảo về mặt pháp lý: có đăng ký kinh doanh, có ngành nghề hoạt động phù hợp hoặc có chức năng giáo dục đào tạo, có địa chỉ đăng ký hoạt động.""
+
+③ Lưu ý, cơ sở thực tập cũng cần đáp ứng các yêu cầu chuyên môn nghiệp vụ và cam kết bố trí cán bộ hướng dẫn đúng trình độ chuyên môn cùng cơ sở vật chất phù hợp để hỗ trợ hoạt động thực tập.",[''],"Cơ sở thực tập phải: (1) có đăng ký kinh doanh và ngành nghề phù hợp, (2) đáp ứng yêu cầu chuyên môn hỗ trợ sinh viên, và (3) cam kết bố trí cán bộ hướng dẫn đúng trình độ chuyên môn.",0.29650958040593617,0.0,0.0,0.0
+Đề cương thực tập tối thiểu phải bao gồm những nội dung nào?,"① Đề cương thực tập tối thiểu phải bao gồm các nội dung: các nội dung chuyên môn cần tìm hiểu, thực hành tại cơ sở thực tập; các kiến thức thực tế cần thu thập để bổ trợ cho quá trình học tập; các kỹ năng cần đạt được sau khi kết thúc quá trình thực tập; kế hoạch thời gian đối với quá trình thực tập; cấu trúc báo cáo thực tập và các nội dung cần trình bày.
+
+② Theo Điều 4 phần hướng dẫn thực tập tại cơ sở thực tập, đề cương thực tập phải bao gồm tối thiểu các nội dung:  
+- a) Các nội dung chuyên môn cần tìm hiểu, thực hành tại cơ sở thực tập.  
+- b) Các kiến thức thực tế cần thu thập để bổ trợ cho quá trình học tập.  
+- c) Các kỹ năng cần đạt được sau khi kết thúc quá trình thực tập.  
+- d) Kế hoạch thời gian đối với quá trình thực tập.  
+- đ) Cấu trúc báo cáo thực tập và các nội dung cần trình bày.
+
+③ Lưu ý người học cần trao đổi với người hướng dẫn tại cơ sở thực tập về đề cương này trước khi bắt đầu thực tập để đảm bảo hoàn thành các nội dung theo yêu cầu.",[''],"Đề cương thực tập phải có tối thiểu 5 nội dung: (1) nội dung chuyên môn cần thực hành, (2) kiến thức thực tế cần thu thập, (3) kỹ năng cần đạt, (4) kế hoạch thời gian, và (5) cấu trúc báo cáo thực tập.",0.3631258673900087,0.0,0.0,0.0
+Sinh viên thực tập tại cơ sở nước ngoài có phải thi kết thúc học phần tại ĐHBK không?,"① Sinh viên thực tập tại cơ sở nước ngoài phải tham gia thi kết thúc học phần tại ĐHBK Hà Nội.  
+② Theo mục 4 phần hướng dẫn trao đổi thực tập tại các cơ sở nước ngoài (ngữ cảnh 9), người học tham gia thực tập tại cơ sở nước ngoài phải tham gia thi kết thúc.  
+③ Lưu ý sinh viên cần hoàn thành đầy đủ các yêu cầu thực tập và thi kết thúc theo quy định của nhà trường để được công nhận kết quả học phần.",[''],Có. Sinh viên trao đổi thực tập tại cơ sở nước ngoài vẫn phải tham gia thi kết thúc học phần tại ĐHBK Hà Nội để được cho điểm cuối kỳ.,0.5146850795832918,0.0,0.0,0.0
+"Trong tuyển sinh thạc sĩ tại ĐHBK, chứng chỉ IELTS bao nhiêu tương đương Bậc 3?","① Chứng chỉ IELTS từ 4.0 đến 5.0 tương đương Bậc 3 trong tuyển sinh thạc sĩ tại Đại học Bách Khoa Hà Nội.
+
+② Theo Phụ lục kèm theo Quyết định về công nhận văn bằng/chứng chỉ ngoại ngữ tương đương Bậc 3 và Bậc 4 Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam, chứng chỉ IELTS với thang điểm 4.0-5.0 được quy đổi tương đương Bậc 3.
+
+③ Lưu ý, các trường hợp quy đổi tương đương khác do Giám đốc Đại học quyết định.",[''],"Trong tuyển sinh và đào tạo thạc sĩ/tiến sĩ tại ĐHBK, IELTS 4.0–5.0 tương đương Bậc 3; IELTS 5.5–6.5 tương đương Bậc 4.",0.5356075571968272,0.0,0.0,0.0
+Chứng chỉ tiếng Nhật JLPT nào tương đương Bậc 3 khi xét tuyển sau đại học?,"① Chứng chỉ tiếng Nhật JLPT tương đương Bậc 3 khi xét tuyển sau đại học là JLPT N4.  
+② Theo Bảng 9.5 Bảng quy đổi tương đương các chứng chỉ tiếng Nhật, JLPT N4 tương đương CEFR-VN B1, tương ứng với Bậc 3 Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam.  
+③ Lưu ý: Việc công nhận cụ thể có thể căn cứ thêm vào quyết định của Giám đốc Đại học Bách Khoa Hà Nội nếu có trường hợp quy đổi khác.",[''],"Chứng chỉ JLPT N4 tương đương Bậc 3, và JLPT N3 tương đương Bậc 4 trong tuyển sinh và đào tạo thạc sĩ/tiến sĩ tại ĐHBK Hà Nội.",0.5615134320162588,0.0,0.0,0.0
+Chứng chỉ HSK mấy tương đương Bậc 3 trong tuyển sinh sau đại học?,"① Chứng chỉ HSK Bậc 3 tương đương Bậc 3 trong tuyển sinh sau đại học tại Đại học Bách Khoa Hà Nội.
+
+② Theo mục 4 phần Chuẩn ngoại ngữ đầu ra CTĐT Tiếng Trung Khoa học và Công nghệ (mã FL3): HSK3 và HSKK sơ cấp được xếp ở Bậc 3 theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam.
+
+③ Lưu ý: Các bậc HSK cao hơn sẽ tương ứng với các bậc cao hơn trong Khung năng lực ngoại ngữ 6 bậc.",[''],"HSK Bậc 3 tương đương Bậc 3, và HSK Bậc 4 tương đương Bậc 4 trong tuyển sinh và đào tạo sau đại học tại ĐHBK Hà Nội.",0.6408293874502556,0.0,0.0,0.0
+Chứng chỉ tiếng Đức Goethe-Zertifikat B2 tương đương bậc mấy trong tuyển sinh sau đại học của ĐHBK?,"① Chứng chỉ tiếng Đức Goethe-Zertifikat B2 tương đương trình độ B2 trong hệ quy đổi của ĐHBK Hà Nội.
+
+② Theo Bảng 8.3 Bảng quy đổi tương đương các chứng chỉ tiếng Đức, Goethe-Zertifikat B2 tương đương với DSD2, TELC/ ÖSD/ HUSTGC: B2.
+
+③ Lưu ý, thông tin về quy định cụ thể liên quan đến tuyển sinh sau đại học không được nêu rõ trong ngữ cảnh hiện có; bạn nên tham khảo thêm quy chế tuyển sinh sau đại học của ĐHBK để biết yêu cầu trình độ ngoại ngữ chính xác.",[''],Goethe-Zertifikat B2 tương đương Bậc 4 trong tuyển sinh và đào tạo thạc sĩ/tiến sĩ tại ĐHBK Hà Nội (Goethe B1 tương đương Bậc 3).,0.664451030965597,0.125,0.0,0.0
+1 ECTS tại các trường Đại học ở CHLB Đức tương đương bao nhiêu giờ học?,"① 1 ECTS tại các trường Đại học ở Cộng hòa Liên bang Đức (CHLB Đức) tương đương 30 giờ học.
+
+② Theo phần ""1.2. Hệ thống chuyển đổi và tích lũy tín chỉ Châu Âu"", 01 ECTS được quy định tương đương 30 giờ cho các tổng thời gian dành cho các hoạt động học tập, và cụ thể tại CHLB Đức, 1 ECTS = 30 giờ học.
+
+③ Lưu ý rằng số giờ này bao gồm tổng thời gian học tập lý thuyết, bài tập, thực hành, thí nghiệm, thực tập, đồ án và tự học.",[''],"Tại CHLB Đức (cũng như Bỉ, Romania, Hungary), 1 ECTS tương đương 30 giờ học tập (bao gồm lý thuyết, thực hành, tự học).",0.6390959954947358,0.0,0.0,0.0
+Học phần 3 tín chỉ phân bố (3-1-0-6) của ĐHBK tương đương bao nhiêu ECTS khi quy đổi sang hệ Đức?,"① Học phần 3 tín chỉ phân bố (3-1-0-6) của ĐHBK Hà Nội tương đương 4,67 ECTS khi quy đổi sang hệ tín chỉ của CHLB Đức.
+
+② Theo phần ""2.2. Bảng quy đối TC tương đương giữa ĐHBK Hà Nội và trường Đại học ở CHLB Đức"", học phần 3(3-1-0-6) có tổng thời lượng học tập 140 giờ và quy đổi tương đương 4,67 ECTS.
+
+③ Lưu ý: 1 ECTS được quy định tương đương 30 giờ học tập, bao gồm lý thuyết, bài tập, thực hành, thí nghiệm, thực tập, đồ án và tự học. Việc quy đổi này dựa trên tổng số giờ học tập của sinh viên theo quy định của ĐHBK và hệ thống ECTS của CHLB Đức.",[''],"Học phần 3 tín chỉ phân bố 3(3-1-0-6) tại ĐHBK có tổng thời lượng 140 giờ, tương đương 4,67 ECTS khi quy đổi sang hệ Đức (1 ECTS = 30 giờ).",0.6169370688782145,0.0,0.0,0.0
+"Tra cứu thông tin văn bằng, chứng chỉ của ĐHBK Hà Nội ở đâu?","① Thông tin về văn bằng, chứng chỉ của ĐHBK Hà Nội có thể tra cứu trên trang chủ của trường tại địa chỉ https://hust.edu.vn, vào mục “ĐÀO TẠO” và chọn tiểu mục “Tra cứu văn bằng”.
+
+② Theo phần (10) ngữ cảnh: ""Thông tin về văn bằng, chứng chỉ có thể tra cứu tại trang chủ của ĐHBK Hà Nội tại https://hust.edu.vn vào mục “ĐÀO TẠO” và vào tiểu mục “Tra cứu văn bằng”.""
+
+③ Lưu ý: Việc xác thực văn bằng, chứng chỉ được ĐHBK Hà Nội trả lời bằng văn bản dựa trên công văn hoặc đề nghị gửi tới trường.",[''],"Tra cứu thông tin văn bằng, chứng chỉ của ĐHBK Hà Nội tại website https://hust.edu.vn/, vào mục 'ĐÀO TẠO' và tiểu mục 'Tra cứu văn bằng'.",0.5181302927813562,0.0,0.0,0.0
+Thời gian đào tạo VLVH dài hơn chính quy tối thiểu bao nhiêu phần trăm?,"① Thời gian đào tạo VLVH dài hơn chính quy tối thiểu 50%.
+
+② Theo quy định chung về đào tạo VLVH tại Đại học Bách Khoa Hà Nội, thời gian đào tạo VLVH thường kéo dài hơn đào tạo chính quy ít nhất 50% để phù hợp với đặc thù học tập và làm việc của người học.
+
+③ Lưu ý: Tỷ lệ này có thể thay đổi tùy theo từng ngành học và chương trình cụ thể, sinh viên nên tham khảo chi tiết trong thông báo tuyển sinh hoặc quy chế đào tạo của từng khoa.",[''],Thời gian đào tạo VLVH dài hơn tối thiểu 20% so với hình thức chính quy của cùng chương trình đào tạo.,0.5462702626290695,0.0,0.0,0.0
+Sinh viên VLVH từ khóa 69 cần đáp ứng điều kiện ngoại ngữ gì để được xét nhận đồ án tốt nghiệp?,"① Sinh viên VLVH khóa 69 cần đạt chuẩn ngoại ngữ tối thiểu Bậc 3.1 để được xét nhận đồ án tốt nghiệp.  
+② Theo Điều 4 mục (3)(a) và (b) [Yêu cầu về chuẩn tiếng Anh trong quá trình học tập và chuẩn tiếng Anh đầu ra], sinh viên khóa 69 phải có kết quả thi tiếng Anh nội bộ để xét điều kiện chuẩn ngoại ngữ theo học kỳ và xét nhận đồ án tốt nghiệp; đồng thời phải có chứng chỉ tiếng Anh quốc gia hoặc quốc tế 4 kỹ năng để xét chuẩn đầu ra. Theo Bảng 3.2 [Yêu cầu chuẩn tiếng Anh theo số tín chỉ tích lũy và chuẩn đầu ra], điều kiện xét nhận đồ án/khóa luận tốt nghiệp là đạt tối thiểu Bậc 3.1.  
+③ Lưu ý, chứng chỉ TOEIC 2 kỹ năng không được công nhận để xét nhận đồ án tốt nghiệp; sinh viên cần có chứng chỉ 4 kỹ năng hoặc tương đương theo quy định.",[''],Sinh viên VLVH từ khóa 69 trở về sau cần đạt toàn bộ 5 học phần tiếng Anh (FL1036–FL1040) hoặc đạt tối thiểu Bậc 3.1 để được xét nhận đồ án tốt nghiệp.,0.5652654888181052,0.0,0.0,0.0

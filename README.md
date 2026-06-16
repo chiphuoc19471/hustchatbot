@@ -5,19 +5,19 @@
 
 ---
 
-## 📌 Giới thiệu
+##  Giới thiệu
 
 Hệ thống chatbot hỏi đáp về **quy chế, quy định của Đại học Bách Khoa Hà Nội (HUST)**, giúp sinh viên tra cứu nhanh các nội dung như: quy chế đào tạo, **chuẩn đầu ra tiếng Anh / ngoại ngữ**, điều kiện xét tốt nghiệp, học phí – học bổng, đăng ký học phần, khen thưởng – kỷ luật,... dựa trên các văn bản quy chế chính thức của Nhà trường.
-
+![alt text](R.jpg)
 ---
 
-## 👤 Tác giả
+##  Tác giả
 
 Đồ án cá nhân — phụ trách toàn bộ: thu thập dữ liệu, RAG pipeline, Backend, Frontend và đánh giá.
 
 ---
 
-## 🏗️ Kiến trúc hệ thống
+##  Kiến trúc hệ thống
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -50,7 +50,7 @@ Hệ thống chatbot hỏi đáp về **quy chế, quy định của Đại họ
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Thành phần | Công nghệ |
 |---|---|
@@ -69,7 +69,7 @@ Hệ thống chatbot hỏi đáp về **quy chế, quy định của Đại họ
 
 ---
 
-## 📡 Interface RAG Pipeline
+##  Interface RAG Pipeline
 
 Backend gọi pipeline RAG qua **một hàm duy nhất** `rag.pipeline.answer()`:
 
@@ -103,7 +103,7 @@ Backend gọi pipeline RAG qua **một hàm duy nhất** `rag.pipeline.answer()`
 
 ---
 
-## 📁 Cấu trúc thư mục
+##  Cấu trúc thư mục
 
 ```
 chatbot-quyche-hust/
@@ -154,7 +154,7 @@ chatbot-quyche-hust/
 
 ---
 
-## ⚙️ Setup môi trường
+##  Setup môi trường
 
 ### Yêu cầu
 - Python 3.10+
@@ -196,8 +196,8 @@ LLM_MODEL=gpt-4.1-mini
 
 Các tham số kỹ thuật của pipeline đặt trong `rag/config.py`:
 ```python
-CHUNK_SIZE = 500              # tokens, ưu tiên giữ ranh giới Điều/Khoản
-TOP_K_RETRIEVE = 10           # số chunk lấy từ Chroma
+CHUNK_SIZE = 600             # tokens, ưu tiên giữ ranh giới Điều/Khoản
+TOP_K_RETRIEVE = 15           # số chunk lấy từ Chroma
 TOP_N_RERANK = 4              # số chunk giữ lại sau LLM Reranker
 MAX_HISTORY_TURNS = 5         # số lượt hội thoại dùng cho Query Rewriting
 RERANKER_MODEL = "gpt-4.1-mini"
@@ -223,15 +223,16 @@ Dùng Live Server (VS Code extension) để tránh lỗi CORS khi gọi API.
 
 ---
 
-## ⚠️ Lưu ý quan trọng
+##  Lưu ý quan trọng
 
 - **KHÔNG** commit file `.env` lên Git
 - **KHÔNG** commit `rag/vector_store/` lên Git (đã thêm vào `.gitignore`, build lại bằng `python -m rag.build_index`)
 
 ---
 
-## 📞 Liên hệ
+##  Liên hệ
 
 > Hoàng Chí Phước - chiphuoc1947@gmail.com
-#   h u s t c h a t b o t  
+#   h u s t c h a t b o t 
+ 
  

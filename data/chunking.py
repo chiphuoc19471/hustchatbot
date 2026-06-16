@@ -188,7 +188,7 @@ def chunk_markdown_files(processed_dir: str = 'processed', chunk_dir: str = 'chu
     # Fallback chunker cho các Điều quá dài
     text_splitter = RecursiveCharacterTextSplitter(
         chunk_size=2000,
-        chunk_overlap=300,
+        chunk_overlap=200,
         separators=["\n\n", "\n", ".", "?", "!", " ", ""],
         length_function=len,
     )

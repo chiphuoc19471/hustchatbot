@@ -1,6 +1,18 @@
-[20260611_235940] Metrics: {'context_precision': 0.9400, 'context_recall': 0.9000, 'faithfulness': 0.7889, 'answer_relevancy': 0.8000}
-             Chi tiết tại: eval_results_20260611_235940.csv
+[20260613_152204] Metrics: {'answer_relevancy': 0.4511, 'faithfulness': 0.0282, 'context_recall': 0.0000, 'context_precision': 0.0000}
+             Chi tiết tại: eval_results_20260613_152204.csv
 --------------------------------------------------
-[20260613_091230] Metrics: {'context_precision': 0.9253, 'context_recall': 0.8333, 'faithfulness': 0.8604, 'answer_relevancy': 0.7944}
-             Chi tiết tại: eval_results_20260613_091230.csv
+[20260613_154126] Metrics: {'answer_relevancy': 0.4464, 'faithfulness': 0.8524, 'context_recall': 0.8111, 'context_precision': 0.8694}
+             Chi tiết tại: eval_results_20260613_154126.csv
+--------------------------------------------------
+[20260616_085905] Metrics: {'answer_relevancy': 0.5000, 'faithfulness': 0.9147, 'context_recall': 0.9429, 'context_precision': 0.9309}
+             Chi tiết tại: eval_results_20260616_085905.csv
+--------------------------------------------------
+[20260616_093537] Metrics: {'answer_relevancy': 0.4627, 'faithfulness': 0.7891, 'context_recall': 0.7750, 'context_precision': 0.8818}
+             Chi tiết tại: eval_results_20260616_093537.csv
+--------------------------------------------------
+[20260616_102231] Metrics: {'answer_relevancy': 0.4325, 'faithfulness': 0.8852, 'context_recall': 0.8514, 'context_precision': 0.9113}
+             Chi tiết tại: eval_results_20260616_102231.csv
+--------------------------------------------------
+[20260616_104952] Metrics: {'answer_relevancy': 0.5032}
+             Chi tiết tại: eval_results_20260616_104952.csv
 --------------------------------------------------

@@ -33,7 +33,7 @@ def rerank(query: str, chunks: list[dict]) -> list[dict]:
         return chunks
 
     candidates_text = "\n\n".join(
-        f"[{i}] {c.get('dieu', '')}: {c['text'][:400]}"
+        f"[{i}] {c.get('dieu', '')}: {c['text'][:1500]}"
         for i, c in enumerate(chunks)
     )
 

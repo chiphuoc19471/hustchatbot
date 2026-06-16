@@ -1,190 +1,242 @@
 [
-    {
-        "question": "Thử việc đối với công việc người quản lý doanh nghiệp tối đa bao nhiêu ngày?",
-        "ground_truth": "Theo Điều 25 Bộ luật Lao động 2019, thời gian thử việc không quá 180 ngày đối với công việc của người quản lý doanh nghiệp."
-    },
-    {
-        "question": "Thử việc đối với công việc cần trình độ đại học thì tối đa bao lâu?",
-        "ground_truth": "Theo Điều 25 Bộ luật Lao động 2019, thời gian thử việc không quá 60 ngày đối với công việc có chức danh nghề nghiệp cần trình độ chuyên môn, kỹ thuật từ cao đẳng trở lên."
-    },
-    {
-        "question": "Có được áp dụng thời gian thử việc đối với hợp đồng lao động dưới 1 tháng không?",
-        "ground_truth": "Theo khoản 3 Điều 24 Bộ luật Lao động 2019, không áp dụng thử việc đối với người lao động giao kết hợp đồng lao động có thời hạn dưới 01 tháng."
-    },
-    {
-        "question": "Người lao động đơn phương chấm dứt hợp đồng lao động không xác định thời hạn phải báo trước bao lâu?",
-        "ground_truth": "Theo khoản 1 Điều 35 Bộ luật Lao động 2019, người lao động phải báo trước ít nhất 45 ngày nếu làm việc theo hợp đồng lao động không xác định thời hạn."
-    },
-    {
-        "question": "Công ty có quyền đơn phương chấm dứt hợp đồng khi người lao động ốm đau dài ngày không?",
-        "ground_truth": "Có. Theo điểm b khoản 1 Điều 36 Bộ luật Lao động 2019, người lao động ốm đau, tai nạn đã điều trị 12 tháng liên tục (với HĐLĐ không xác định thời hạn) hoặc 06 tháng liên tục (HĐLĐ 12-36 tháng) mà khả năng lao động chưa hồi phục thì NSDLĐ có quyền đơn phương chấm dứt hợp đồng."
-    },
-    {
-        "question": "Lương thử việc ít nhất bằng bao nhiêu phần trăm mức lương chính thức?",
-        "ground_truth": "Theo Điều 26 Bộ luật Lao động 2019, tiền lương của người lao động trong thời gian thử việc do hai bên thỏa thuận nhưng ít nhất phải bằng 85% mức lương của công việc đó."
-    },
-    {
-        "question": "Có được giao kết hợp đồng lao động bằng lời nói không?",
-        "ground_truth": "Được. Theo khoản 2 Điều 14 Bộ luật Lao động 2019, hai bên có thể giao kết hợp đồng lao động bằng lời nói đối với hợp đồng có thời hạn dưới 01 tháng (trừ một số trường hợp đặc biệt)."
-    },
-    {
-        "question": "Người sử dụng lao động giữ bản chính giấy tờ tùy thân của người lao động có vi phạm pháp luật không?",
-        "ground_truth": "Có vi phạm. Theo khoản 1 Điều 17 Bộ luật Lao động 2019, nghiêm cấm người sử dụng lao động giữ bản chính giấy tờ tùy thân, văn bằng, chứng chỉ của người lao động."
-    },
-    {
-        "question": "Hợp đồng lao động xác định thời hạn được ký tối đa mấy lần?",
-        "ground_truth": "Theo điểm c khoản 2 Điều 20 Bộ luật Lao động 2019, hợp đồng lao động xác định thời hạn chỉ được ký thêm 01 lần, sau đó nếu vẫn tiếp tục làm việc thì phải ký hợp đồng lao động không xác định thời hạn."
-    },
-    {
-        "question": "Phụ lục hợp đồng lao động có được dùng để sửa đổi thời hạn của hợp đồng không?",
-        "ground_truth": "Không. Theo khoản 2 Điều 22 Bộ luật Lao động 2019, phụ lục hợp đồng lao động không được sửa đổi thời hạn của hợp đồng lao động."
-    },
-    {
-        "question": "Người lao động làm thêm giờ vào ngày thường được trả lương ít nhất bao nhiêu?",
-        "ground_truth": "Theo điểm a khoản 1 Điều 98 Bộ luật Lao động 2019, người lao động làm thêm giờ vào ngày thường được trả lương ít nhất bằng 150%."
-    },
-    {
-        "question": "Người lao động làm thêm giờ vào ngày nghỉ hằng tuần được trả lương ít nhất bao nhiêu?",
-        "ground_truth": "Theo điểm b khoản 1 Điều 98 Bộ luật Lao động 2019, làm thêm giờ vào ngày nghỉ hằng tuần được trả lương ít nhất bằng 200%."
-    },
-    {
-        "question": "Người lao động làm thêm giờ vào ngày lễ được trả lương ít nhất bao nhiêu?",
-        "ground_truth": "Theo điểm c khoản 1 Điều 98 Bộ luật Lao động 2019, làm thêm giờ vào ngày nghỉ lễ, tết, ngày nghỉ có hưởng lương được trả ít nhất bằng 300% chưa kể tiền lương ngày lễ, tết."
-    },
-    {
-        "question": "Tiền lương làm việc vào ban đêm được quy định như thế nào?",
-        "ground_truth": "Theo khoản 2 Điều 98 Bộ luật Lao động 2019, người lao động làm việc vào ban đêm được trả thêm ít nhất bằng 30% tiền lương tính theo đơn giá tiền lương hoặc tiền lương thực trả theo công việc của ngày làm việc bình thường."
-    },
-    {
-        "question": "Người lao động làm việc đủ 12 tháng được nghỉ phép năm bao nhiêu ngày?",
-        "ground_truth": "Theo điểm a khoản 1 Điều 113 Bộ luật Lao động 2019, người lao động làm việc trong điều kiện bình thường được nghỉ 12 ngày làm việc."
-    },
-    {
-        "question": "Nghỉ việc riêng khi kết hôn được nghỉ mấy ngày và có hưởng lương không?",
-        "ground_truth": "Theo điểm a khoản 1 Điều 115 Bộ luật Lao động 2019, người lao động kết hôn được nghỉ việc riêng 03 ngày và vẫn được hưởng nguyên lương."
-    },
-    {
-        "question": "Bố đẻ mất thì người lao động được nghỉ việc riêng mấy ngày có lương?",
-        "ground_truth": "Theo điểm c khoản 1 Điều 115 Bộ luật Lao động 2019, bố đẻ mất thì người lao động được nghỉ 03 ngày và hưởng nguyên lương."
-    },
-    {
-        "question": "Một năm người lao động được làm thêm tối đa bao nhiêu giờ?",
-        "ground_truth": "Theo điểm b khoản 2 Điều 107 Bộ luật Lao động 2019, số giờ làm thêm không quá 200 giờ trong 01 năm, trừ một số trường hợp đặc biệt được làm thêm không quá 300 giờ."
-    },
-    {
-        "question": "Thời gian làm việc bình thường trong ngày không quá bao nhiêu giờ?",
-        "ground_truth": "Theo khoản 1 Điều 105 Bộ luật Lao động 2019, thời giờ làm việc bình thường không quá 08 giờ trong 01 ngày và không quá 48 giờ trong 01 tuần."
-    },
-    {
-        "question": "Thời gian nghỉ giữa ca làm việc ban ngày là bao nhiêu phút?",
-        "ground_truth": "Theo khoản 1 Điều 109 Bộ luật Lao động 2019, người lao động làm việc theo thời giờ làm việc quy định thì được nghỉ giữa giờ ít nhất 30 phút liên tục, làm việc ban đêm thì được nghỉ giữa giờ ít nhất 45 phút liên tục."
-    },
-    {
-        "question": "Lao động nữ sinh con được nghỉ thai sản bao nhiêu tháng?",
-        "ground_truth": "Theo khoản 1 Điều 139 Bộ luật Lao động 2019, lao động nữ được nghỉ thai sản trước và sau khi sinh con là 06 tháng."
-    },
-    {
-        "question": "Lao động nữ sinh đôi thì được nghỉ thai sản thêm bao nhiêu tháng?",
-        "ground_truth": "Theo khoản 1 Điều 139 Bộ luật Lao động 2019, trường hợp lao động nữ sinh đôi trở lên thì tính từ con thứ 02 trở đi, cứ mỗi con, người mẹ được nghỉ thêm 01 tháng."
-    },
-    {
-        "question": "Lao động nữ mang thai đi khám thai được nghỉ mấy ngày?",
-        "ground_truth": "Theo Điều 32 Luật Bảo hiểm xã hội 2014, lao động nữ được nghỉ việc đi khám thai 05 lần, mỗi lần 01 ngày; trường hợp ở xa hoặc thai có bệnh lý thì nghỉ 02 ngày cho mỗi lần khám thai."
-    },
-    {
-        "question": "Lao động nam có vợ sinh con thường được nghỉ thai sản mấy ngày?",
-        "ground_truth": "Theo điểm a khoản 2 Điều 34 Luật Bảo hiểm xã hội 2014, lao động nam đang đóng BHXH khi vợ sinh con được nghỉ việc 05 ngày làm việc."
-    },
-    {
-        "question": "Sảy thai dưới 1 tháng tuổi được nghỉ việc hưởng chế độ thai sản tối đa bao nhiêu ngày?",
-        "ground_truth": "Theo điểm a khoản 1 Điều 33 Luật Bảo hiểm xã hội 2014, khi sảy thai, nạo, hút thai, thai chết lưu hoặc phá thai bệnh lý dưới 01 tháng tuổi thì được nghỉ tối đa 10 ngày."
-    },
-    {
-        "question": "Lao động nữ nuôi con dưới 12 tháng tuổi được nghỉ vắt sữa, cho con bú mỗi ngày bao lâu?",
-        "ground_truth": "Theo khoản 4 Điều 137 Bộ luật Lao động 2019, lao động nữ trong thời gian nuôi con dưới 12 tháng tuổi được nghỉ mỗi ngày 60 phút trong thời gian làm việc để cho con bú, vắt, trữ sữa, nghỉ ngơi."
-    },
-    {
-        "question": "Công ty có được sa thải phụ nữ mang thai không?",
-        "ground_truth": "Không. Theo khoản 3 Điều 137 Bộ luật Lao động 2019, người sử dụng lao động không được sa thải hoặc đơn phương chấm dứt hợp đồng lao động đối với người lao động vì lý do kết hôn, mang thai, nghỉ thai sản, nuôi con dưới 12 tháng tuổi."
-    },
-    {
-        "question": "Công ty có được yêu cầu phụ nữ mang thai từ tháng thứ 7 làm thêm giờ không?",
-        "ground_truth": "Không. Theo điểm a khoản 1 Điều 137 Bộ luật Lao động 2019, người sử dụng lao động không được sử dụng lao động nữ mang thai từ tháng thứ 07 (hoặc từ tháng thứ 06 ở vùng sâu vùng xa) làm việc ban đêm, làm thêm giờ và đi công tác xa."
-    },
-    {
-        "question": "Tiền trợ cấp một lần khi sinh con bằng bao nhiêu lần mức lương cơ sở?",
-        "ground_truth": "Theo Điều 38 Luật Bảo hiểm xã hội 2014, lao động nữ sinh con được trợ cấp một lần cho mỗi con bằng 02 lần mức lương cơ sở tại tháng lao động nữ sinh con."
-    },
-    {
-        "question": "Lao động nữ được nghỉ dưỡng sức sau sinh bao nhiêu ngày nếu sinh thường?",
-        "ground_truth": "Theo điểm c khoản 2 Điều 41 Luật Bảo hiểm xã hội 2014, thời gian nghỉ dưỡng sức, phục hồi sức khoẻ sau thai sản tối đa là 05 ngày đối với các trường hợp sinh thường."
-    },
-    {
-        "question": "Các hình thức xử lý kỷ luật lao động theo quy định hiện hành bao gồm những gì?",
-        "ground_truth": "Theo Điều 124 Bộ luật Lao động 2019, các hình thức xử lý kỷ luật lao động gồm: 1. Khiển trách. 2. Kéo dài thời hạn nâng lương không quá 06 tháng. 3. Cách chức. 4. Sa thải."
-    },
-    {
-        "question": "Người sử dụng lao động có được dùng hình thức phạt tiền để thay thế kỷ luật lao động không?",
-        "ground_truth": "Không. Theo Điều 127 Bộ luật Lao động 2019, nghiêm cấm các hành vi: Phạt tiền, cắt lương thay việc xử lý kỷ luật lao động."
-    },
-    {
-        "question": "Thời hiệu xử lý kỷ luật lao động thông thường là bao lâu?",
-        "ground_truth": "Theo khoản 1 Điều 123 Bộ luật Lao động 2019, thời hiệu xử lý kỷ luật lao động là 06 tháng kể từ ngày xảy ra hành vi vi phạm; trường hợp liên quan đến tài chính, tài sản, bí mật công nghệ thì thời hiệu là 12 tháng."
-    },
-    {
-        "question": "Điều kiện về số năm đóng BHXH tối thiểu để được hưởng lương hưu hàng tháng của người lao động hiện nay là bao nhiêu năm?",
-        "ground_truth": "Theo khoản 1 Điều 73 Luật Bảo hiểm xã hội (hoặc Điều 169 Bộ luật LĐ 2019), điều kiện chung về thời gian đóng BHXH tối thiểu để hưởng lương hưu là đủ 20 năm trở lên."
-    },
-    {
-        "question": "Nghỉ ốm đau do mắc bệnh thông thường đối với người đóng BHXH dưới 15 năm được nghỉ tối đa bao nhiêu ngày một năm?",
-        "ground_truth": "Theo điểm a khoản 1 Điều 26 Luật Bảo hiểm xã hội 2014, đối với người làm việc trong điều kiện bình thường, đóng BHXH dưới 15 năm thì được hưởng tối đa 30 ngày trong một năm."
-    },
-    {
-        "question": "Chế độ tử tuất của người tham gia BHXH bắt buộc bao gồm những khoản trợ cấp nào?",
-        "ground_truth": "Chế độ tử tuất theo Luật Bảo hiểm xã hội 2014 bao gồm: Trợ cấp mai táng (Điều 66), Trợ cấp tuất hằng tháng (Điều 67) hoặc Trợ cấp tuất một lần (Điều 69)."
-    },
-    {
-        "question": "Mức trợ cấp mai táng đối với người lao động đóng BHXH bắt buộc là bao nhiêu?",
-        "ground_truth": "Theo khoản 2 Điều 66 Luật Bảo hiểm xã hội 2014, trợ cấp mai táng bằng 10 lần mức lương cơ sở tại tháng mà người quy định chết."
-    },
-    {
-        "question": "Độ tuổi lao động tối thiểu theo pháp luật Việt Nam là bao nhiêu tuổi?",
-        "ground_truth": "Theo khoản 1 Điều 3 Bộ luật Lao động 2019, người lao động là người từ đủ 15 tuổi trở lên, trừ một số trường hợp được sử dụng người dưới 15 tuổi làm việc."
-    },
-    {
-        "question": "Bao nhiêu tuổi thì được coi là người lao động cao tuổi?",
-        "ground_truth": "Theo khoản 1 Điều 148 Bộ luật Lao động 2019, người lao động cao tuổi là người tiếp tục lao động sau độ tuổi nghỉ hưu theo quy định tại khoản 2 Điều 169 của Bộ luật này (ví dụ: nam đủ 60 tuổi, nữ đủ 55 tuổi có lộ trình tăng dần)."
-    },
-    {
-        "question": "Thời gian làm việc của người dưới 15 tuổi không được quá bao nhiêu giờ một ngày?",
-        "ground_truth": "Theo khoản 1 Điều 146 Bộ luật Lao động 2019, thời giờ làm việc của người chưa đủ 15 tuổi không được quá 04 giờ trong 01 ngày và 20 giờ trong 01 tuần."
-    },
-    {
-        "question": "Mức lương tối thiểu vùng do cơ quan nào quy định?",
-        "ground_truth": "Theo khoản 3 Điều 91 Bộ luật Lao động 2019, mức lương tối thiểu do Chính phủ quy định và công bố trên cơ sở khuyến nghị của Hội đồng tiền lương quốc gia."
-    },
-    {
-        "question": "Trường hợp nào người lao động được nghỉ việc riêng mà không hưởng lương?",
-        "ground_truth": "Theo khoản 2 Điều 115 Bộ luật Lao động 2019, người lao động được nghỉ không hưởng lương 01 ngày và phải thông báo với NSDLĐ khi: Ông nội, bà nội, ông ngoại, bà ngoại, anh, chị, em ruột mất; bố hoặc mẹ kết hôn; anh, chị, em ruột kết hôn."
-    },
-    {
-        "question": "Công ty nợ lương bao lâu thì người lao động có quyền đơn phương chấm dứt hợp đồng lao động mà không cần báo trước?",
-        "ground_truth": "Theo điểm b khoản 2 Điều 35 Bộ luật Lao động 2019, người lao động có quyền đơn phương chấm dứt HĐLĐ không cần báo trước nếu không được trả đủ lương hoặc trả lương không đúng thời hạn (trừ trường hợp bất khả kháng theo khoản 4 Điều 97)."
-    },
-    {
-        "question": "Người lao động nước ngoài làm việc tại Việt Nam có bắt buộc phải có giấy phép lao động không?",
-        "ground_truth": "Theo khoản 1 Điều 151 và Điều 152 Bộ luật Lao động 2019, người lao động nước ngoài làm việc tại Việt Nam phải có Giấy phép lao động do cơ quan nhà nước có thẩm quyền cấp, trừ các trường hợp không thuộc diện cấp giấy phép lao động theo Điều 154."
-    },
-    {
-        "question": "Tổng số ngày nghỉ lễ, tết được hưởng nguyên lương trong một năm của người lao động là bao nhiêu ngày?",
-        "ground_truth": "Theo khoản 1 Điều 112 Bộ luật Lao động 2019, người lao động được nghỉ làm việc, hưởng nguyên lương trong những ngày lễ, tết tổng cộng là 11 ngày (kể từ năm 2021 có thêm 1 ngày nghỉ lễ Quốc khánh)."
-    },
-    {
-        "question": "Công ty có phải trả tiền lương những ngày chưa nghỉ phép năm cho người lao động khi thôi việc không?",
-        "ground_truth": "Có. Theo khoản 3 Điều 113 Bộ luật Lao động 2019, trường hợp do thôi việc, bị mất việc làm mà chưa nghỉ hằng năm hoặc chưa nghỉ hết số ngày nghỉ hằng năm thì được người sử dụng lao động thanh toán tiền lương cho những ngày chưa nghỉ."
-    },
-    {
-        "question": "Tiền lương tháng đóng BHXH bắt buộc có bao gồm các khoản trợ cấp ăn trưa, xăng xe không?",
-        "ground_truth": "Không. Theo quy định pháp luật BHXH hiện hành (Thông tư 06/2021/TT-BLĐTBXH), tiền lương tháng đóng BHXH không bao gồm các khoản chế độ và phúc lợi khác như tiền thưởng sáng kiến, tiền ăn giữa ca, các khoản hỗ trợ xăng xe, điện thoại, đi lại, tiền nhà ở, tiền giữ trẻ, nuôi con nhỏ..."
-    }
+  {
+    "id": 1,
+    "topic": "Tín chỉ và học phần",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "5.md - Điều 4",
+    "question": "1 tín chỉ tại ĐHBK Hà Nội tương đương bao nhiêu giờ học?",
+    "contexts": [
+      "Tín chỉ là đơn vị đo khối lượng học tập. Một TC được tính tương đương 50 giờ học tập định mức của người học, bao gồm cả thời gian dự giờ giảng, giờ học có hướng dẫn, tự học, nghiên cứu, trải nghiệm và dự kiểm tra, đánh giá. Đối với hoạt động dạy học trên lớp, một TC yêu cầu thực hiện tối thiểu 15 giờ giảng hoặc 30 giờ thực hành, thí nghiệm, thảo luận; 45 giờ thực tập tại cơ sở; 45 giờ làm tiểu luận, bài tập lớn hoặc đồ án, khóa luận tốt nghiệp. Một tuần làm đồ án toàn thời gian tương đương 1 TC; một tuần thực tập toàn thời gian tương đương 0,5-0,6 TC."
+    ],
+    "answer": "",
+    "ground_truth": "Một tín chỉ tại ĐHBK Hà Nội tương đương 50 giờ học tập định mức, bao gồm thời gian dự giờ giảng, học có hướng dẫn, tự học, nghiên cứu, trải nghiệm và kiểm tra đánh giá. Trên lớp, 1 TC yêu cầu tối thiểu 15 giờ giảng hoặc 30 giờ thực hành."
+  },
+  {
+    "id": 2,
+    "topic": "Tín chỉ và học phần",
+    "type": "so_sanh",
+    "source_file": "5.md - Điều 4",
+    "question": "Học phần tiên quyết và học phần học trước khác nhau như thế nào?",
+    "contexts": [
+      "Điều kiện tham dự một học phần được quy định trong đề cương chi tiết của học phần gồm một hoặc nhiều yếu tố dưới đây: a) Học phần tiên quyết: Học phần A là học phần tiên quyết của học phần B thì sinh viên phải hoàn thành học phần A (với mức điểm đạt) mới được dự lớp học phần B. b) Học phần học trước: Học phần A là học phần học trước của học phần B thì sinh viên phải đăng ký và học xong (có thể chưa đạt) học phần A mới được dự lớp học phần B. c) Học phần song hành: Học phần A là học phần song hành của học phần B thì sinh viên phải theo học trước hoặc học đồng thời với học phần B."
+    ],
+    "answer": "",
+    "ground_truth": "Học phần tiên quyết yêu cầu sinh viên phải hoàn thành và có điểm đạt mới được học tiếp. Học phần học trước chỉ cần đăng ký và học xong (dù chưa đạt điểm) mới được đăng ký học phần sau."
+  },
+  {
+    "id": 3,
+    "topic": "Điểm học phần",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "5.md - Điều 5",
+    "question": "Điểm học phần 7.5/10 tương đương điểm chữ và điểm thang 4 là bao nhiêu?",
+    "contexts": [
+      "Điểm học phần được tính từ tổng điểm thành phần với trọng số tương ứng, làm tròn tới một chữ số thập phân và quy đổi thành điểm chữ theo quy tắc: Điểm học phần theo thang 10 từ 7,0÷7,9 quy đổi thành điểm chữ B, điểm số quy đổi thang 4 là 3,0. Từ 8,0÷8,4 là B+, thang 4 là 3,5. Từ 8,5÷9,4 là A, thang 4 là 4,0. Từ 9,5÷10 là A+, thang 4 là 4,0. Từ 6,5÷6,9 là C+, thang 4 là 2,5. Từ 5,5÷6,4 là C, thang 4 là 2,0. Từ 5,0÷5,4 là D+, thang 4 là 1,5. Từ 4,0÷4,9 là D, thang 4 là 1,0. Từ 0,0÷3,9 là F, thang 4 là 0."
+    ],
+    "answer": "",
+    "ground_truth": "Điểm 7.5 thuộc khoảng 7,0–7,9 nên được quy đổi thành điểm chữ B, tương đương 3,0 điểm theo thang 4."
+  },
+  {
+    "id": 4,
+    "topic": "Điểm quá trình và chuyên cần",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "5.md - Điều 5",
+    "question": "Sinh viên đi học đầy đủ (không vắng buổi nào) được cộng bao nhiêu điểm vào điểm quá trình?",
+    "contexts": [
+      "Đối với các giờ lên lớp, kết quả điểm danh có thể được sử dụng để cộng/trừ vào điểm quá trình của học phần như sau: Số lần vắng mặt 0: điểm quá trình được cộng/trừ +1. Số lần vắng mặt 1-2: điểm quá trình được cộng/trừ 0. Số lần vắng mặt 3-4: điểm quá trình được cộng/trừ -1. Số lần vắng mặt ≥5: điểm quá trình được cộng/trừ -2."
+    ],
+    "answer": "",
+    "ground_truth": "Sinh viên không vắng mặt buổi nào được cộng +1 điểm vào điểm quá trình của học phần."
+  },
+  {
+    "id": 5,
+    "topic": "Hoãn thi và phúc tra",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "5.md - Điều 6",
+    "question": "Sinh viên hoãn thi cuối kỳ có bao nhiêu học kỳ để hoàn thiện điểm?",
+    "contexts": [
+      "Người học không thể dự thi cuối kỳ một học phần (đã học và đã đóng học phí) do bị ốm, tai nạn hoặc vì lý do chính đáng thì được phép hoãn thi và được dự thi cuối kỳ học phần đó trong thời hạn 2 học kỳ chính tiếp theo để hoàn thiện điểm, nếu không điểm học phần là điểm F."
+    ],
+    "answer": "",
+    "ground_truth": "Sinh viên được phép hoãn thi và phải thi bù trong vòng 2 học kỳ chính tiếp theo. Nếu không thi trong thời hạn này, học phần sẽ bị điểm F."
+  },
+  {
+    "id": 6,
+    "topic": "Tiến độ học tập",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "5.md - Điều 3",
+    "question": "Sinh viên cử nhân được phép chậm tiến độ tối đa bao nhiêu học kỳ?",
+    "contexts": [
+      "Người học được phép tốt nghiệp sớm hơn khi đã đáp ứng toàn bộ điều kiện tốt nghiệp của CTĐT hoặc tốt nghiệp chậm hơn so với thời gian theo kế hoạch học tập chuẩn, nhưng thời gian chậm tiến độ không được vượt quá 5 học kỳ chính đối với các chương trình cấp bằng cử nhân, không quá 2 học kỳ chính đối với các chương trình cấp bằng kỹ sư và thạc sĩ."
+    ],
+    "answer": "",
+    "ground_truth": "Sinh viên cử nhân được phép chậm tiến độ tối đa 5 học kỳ chính so với kế hoạch học tập chuẩn. Với chương trình kỹ sư và thạc sĩ, tối đa là 2 học kỳ chính."
+  },
+  {
+    "id": 7,
+    "topic": "Học phí",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "5.md - Điều 9",
+    "question": "Rút học phần trong 7 tuần đầu học kỳ thì phải đóng bao nhiêu phần trăm học phí?",
+    "contexts": [
+      "Người học thuộc CTĐT cử nhân, kỹ sư có đơn đề nghị rút học phần trong khoảng thời gian 7 tuần đầu của học kỳ, nếu được giải quyết theo nguyện vọng thì chỉ đóng một nửa (50%) học phí của học phần đó. Trường hợp ngoại lệ là khi đề nghị rút học phần trong tuần đầu tiên của học kỳ thứ 2, nếu được giải quyết theo nguyện vọng thì không phải đóng học phí của học phần đó."
+    ],
+    "answer": "",
+    "ground_truth": "Rút học phần trong 7 tuần đầu học kỳ (và được chấp thuận) thì chỉ đóng 50% học phí của học phần đó. Nếu rút trong tuần đầu của học kỳ 2 thì không phải đóng học phí."
+  },
+  {
+    "id": 8,
+    "topic": "Chuyển trường",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "5.md - Điều 8",
+    "question": "Những sinh viên nào không được chuyển cơ sở đào tạo?",
+    "contexts": [
+      "Sinh viên đại học chuyển đến học tại một cơ sở đào tạo khác phải được sự đồng ý của Giám đốc ĐHBK Hà Nội và thủ trưởng cơ sở đào tạo chuyển đến. Sinh viên năm thứ nhất, sinh viên năm cuối của khóa học và sinh viên đang bị xem xét buộc thôi học không được chuyển cơ sở đào tạo."
+    ],
+    "answer": "",
+    "ground_truth": "Ba nhóm không được chuyển cơ sở đào tạo: sinh viên năm thứ nhất, sinh viên năm cuối khóa học, và sinh viên đang bị xem xét buộc thôi học."
+  },
+  {
+    "id": 9,
+    "topic": "Chương trình đào tạo",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "5.md - Điều 2",
+    "question": "CTĐT tích hợp cử nhân-kỹ sư tại ĐHBK có tổng thời gian và khối lượng học tập là bao nhiêu?",
+    "contexts": [
+      "CTĐT tích hợp là chương trình được thiết kế tổng thể theo hướng tích hợp kiến thức, kỹ năng của hai bậc trình độ. CTĐT tích hợp cử nhân-kỹ sư, cử nhân-thạc sĩ có thời gian thiết kế là 5,5 năm và khối lượng học tập 180 TC. CTĐT tích hợp bao gồm hai bậc trình độ: Cử nhân (thời gian đào tạo 4 năm, cấp bằng cử nhân) và kỹ sư (thời gian đào tạo 1,5 năm, cấp bằng kỹ sư trình độ bậc 7) hoặc thạc sĩ (thời gian đào tạo 1,5 năm, cấp bằng thạc sĩ)."
+    ],
+    "answer": "",
+    "ground_truth": "CTĐT tích hợp cử nhân-kỹ sư tại ĐHBK có tổng thời gian 5,5 năm và khối lượng 180 tín chỉ, gồm 4 năm bậc cử nhân và 1,5 năm bậc kỹ sư."
+  },
+  {
+    "id": 10,
+    "topic": "Kỹ sư chuyên sâu",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "1.md",
+    "question": "Chương trình đào tạo kỹ sư chuyên sâu (KSCS) tại ĐHBK có tổng bao nhiêu tín chỉ và thời gian học bao lâu?",
+    "contexts": [
+      "CTĐT KSCS có khối lượng học tập 60 tín chỉ đối với người học đã tốt nghiệp đại học. Thời gian học tập toàn khóa theo kế hoạch học tập chuẩn là 2 năm, người tốt nghiệp được cấp bằng kỹ sư bậc 7 theo Khung năng lực quốc gia Việt Nam."
+    ],
+    "answer": "",
+    "ground_truth": "Chương trình KSCS có 60 tín chỉ, thời gian đào tạo 2 năm, dành cho người đã tốt nghiệp đại học. Người tốt nghiệp được cấp bằng kỹ sư Bậc 7 theo Khung năng lực quốc gia."
+  },
+  {
+    "id": 11,
+    "topic": "Kỹ sư chuyên sâu",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "1.md",
+    "question": "Người học KSCS đã tốt nghiệp cử nhân theo chương trình tích hợp của ĐHBK được miễn tối đa bao nhiêu tín chỉ?",
+    "contexts": [
+      "Miễn học và công nhận tín chỉ đối với người học của CTĐT KSCS: a) Người học đã tốt nghiệp cử nhân theo chương trình tích hợp cử nhân - KSCS của ĐHBK Hà Nội được công nhận và miễn học tối đa 12 tín chỉ của các học phần thuộc khối kiến thức định hướng chuyên ngành của CTĐT KSCS. c) Trường/khoa quản ngành quyết định các học phần được công nhận tín chỉ khi xét tuyển. Tổng số tín chỉ của các học phần được công nhận không vượt quá 30 tín chỉ."
+    ],
+    "answer": "",
+    "ground_truth": "Người học đã tốt nghiệp cử nhân theo chương trình tích hợp cử nhân-KSCS của ĐHBK được miễn tối đa 12 tín chỉ thuộc khối kiến thức định hướng chuyên ngành. Tổng số tín chỉ được công nhận không vượt quá 30 tín chỉ."
+  },
+  {
+    "id": 12,
+    "topic": "Ngoại ngữ sinh viên chính quy",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "2.md",
+    "question": "Chứng chỉ tiếng Anh để xét chuẩn ngoại ngữ đầu ra phải đánh giá đủ bao nhiêu kỹ năng và có hiệu lực trong bao lâu?",
+    "contexts": [
+      "Chứng chỉ tiếng Anh phải đánh giá đầy đủ 4 kỹ năng nghe, nói, đọc, viết; đồng thời phải được cấp trong vòng 2 năm tính đến thời điểm xét chuẩn ngoại ngữ đầu ra và còn hiệu lực tại thời điểm xét."
+    ],
+    "answer": "",
+    "ground_truth": "Chứng chỉ tiếng Anh phải đánh giá đủ 4 kỹ năng (nghe, nói, đọc, viết), được cấp trong vòng 2 năm tính đến thời điểm xét và còn hiệu lực tại thời điểm xét."
+  },
+  {
+    "id": 13,
+    "topic": "Ngoại ngữ sinh viên chính quy",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "2.md",
+    "question": "Điểm TOEIC Placement của ĐHBK tổ chức có được dùng để xét chuẩn ngoại ngữ đầu ra không?",
+    "contexts": [
+      "Kết quả bài kiểm tra TOEIC Placement do Đại học Bách khoa Hà Nội phối hợp tổ chức chỉ được sử dụng để phân loại trình độ tiếng Anh cho mục đích xếp lớp và xét miễn học các học phần thuộc khối ngoại ngữ cơ bản, không sử dụng để xét đạt chuẩn ngoại ngữ đầu ra."
+    ],
+    "answer": "",
+    "ground_truth": "Không. Điểm TOEIC Placement do ĐHBK tổ chức chỉ dùng để phân loại, xếp lớp và xét miễn học phần ngoại ngữ cơ bản; không được dùng để xét chuẩn ngoại ngữ đầu ra."
+  },
+  {
+    "id":14,
+    "topic": "Học phí",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "7.md",
+    "question": "Học phí của chương trình tiên tiến Khoa học dữ liệu và Trí tuệ nhân tạo (DSAI) là bao nhiêu mỗi tín chỉ?",
+    "contexts": [
+      "Các chương trình đào tạo đặc biệt và chương trình ELITECH - Mức học phí: Chương trình tiên tiến Khoa học dữ liệu và Trí tuệ nhân tạo, Logistics và Quản lý chuỗi cung ứng: 1.020 nghìn đồng/TCHP cho các học phần khác (ngoài LLCT, GDTC, GDQP-AN và tiếng Anh cơ bản/cơ sở)."
+    ],
+    "answer": "",
+    "ground_truth": "Học phí của chương trình tiên tiến Khoa học dữ liệu và Trí tuệ nhân tạo là 1.020 nghìn đồng/tín chỉ học phí cho các học phần chuyên ngành."
+  },
+  {
+    "id": 15,
+    "topic": "Thực tập",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "9.md",
+    "question": "Cơ sở thực tập phải đảm bảo những yêu cầu pháp lý tối thiểu nào?",
+    "contexts": [
+      "Cơ sở thực tập phải được đảm bảo về mặt pháp lý: có đăng ký kinh doanh, có ngành nghề hoạt động phù hợp hoặc có chức năng giáo dục đào tạo, có địa chỉ đăng ký hoạt động. Cơ sở thực tập phải đáp ứng được yêu cầu chuyên môn nghiệp vụ, có khả năng hỗ trợ người học phát triển kỹ năng nghề nghiệp, kỹ năng bổ trợ cần thiết để hoàn thành chuẩn đầu ra của học phần thực tập. Cơ sở thực tập phải cam kết bố trí cán bộ hướng dẫn đúng trình độ chuyên môn."
+    ],
+    "answer": "",
+    "ground_truth": "Cơ sở thực tập phải: (1) có đăng ký kinh doanh và ngành nghề phù hợp, (2) đáp ứng yêu cầu chuyên môn hỗ trợ sinh viên, và (3) cam kết bố trí cán bộ hướng dẫn đúng trình độ chuyên môn."
+  },
+  {
+    "id": 16,
+    "topic": "Thực tập",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "9.md",
+    "question": "Sinh viên thực tập tại cơ sở nước ngoài có phải thi kết thúc học phần tại ĐHBK không?",
+    "contexts": [
+      "Người học tham gia trao đổi thực tập tại cơ sở nước ngoài phải tham gia thi kết thúc học phần tại Đại học Bách khoa Hà Nội để được cho điểm cuối kỳ của học phần."
+    ],
+    "answer": "",
+    "ground_truth": "Có. Sinh viên trao đổi thực tập tại cơ sở nước ngoài vẫn phải tham gia thi kết thúc học phần tại ĐHBK Hà Nội để được cho điểm cuối kỳ."
+  },
+  {
+    "id": 17,
+    "topic": "Ngoại ngữ thạc sĩ và tiến sĩ",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "13.md",
+    "question": "Chứng chỉ tiếng Đức Goethe-Zertifikat B2 tương đương bậc mấy trong tuyển sinh sau đại học của ĐHBK?",
+    "contexts": [
+      "Bảng tham chiếu quy đổi văn bằng/chứng chỉ ngoại ngữ áp dụng trong tuyển sinh và đào tạo thạc sĩ, tiến sĩ: Tiếng Đức - Goethe-Institut: Goethe-Zertifikat B1 tương đương Bậc 3; Goethe-Zertifikat B2 tương đương Bậc 4. The German TestDaF: TestDaF Bậc 3 (TDN 3) tương đương Bậc 3; TestDaF Bậc 4 (TDN 4) tương đương Bậc 4."
+    ],
+    "answer": "",
+    "ground_truth": "Goethe-Zertifikat B2 tương đương Bậc 4 trong tuyển sinh và đào tạo thạc sĩ/tiến sĩ tại ĐHBK Hà Nội (Goethe B1 tương đương Bậc 3)."
+  },
+  {
+    "id": 18,
+    "topic": "Quy đổi tín chỉ ECTS",
+    "type": "tinh_toan",
+    "source_file": "11.md",
+    "question": "Học phần 3 tín chỉ phân bố (3-1-0-6) của ĐHBK tương đương bao nhiêu ECTS khi quy đổi sang hệ Đức?",
+    "contexts": [
+      "Bảng quy đổi TC tương đương giữa ĐHBK Hà Nội và trường Đại học ở CHLB Đức (1 ECTS = 30 giờ): Học phần 3(3-1-0-6): Tổng số giờ học = (3×15 tiết + (1/2)×30 tiết)×50 phút/60 phút + 6×15 giờ = (45+15)×50/60 + 90 = 50 + 90 = 140 giờ. Quy đổi: 140 giờ ÷ 30 giờ/ECTS = 4,67 ECTS."
+    ],
+    "answer": "",
+    "ground_truth": "Học phần 3 tín chỉ phân bố 3(3-1-0-6) tại ĐHBK có tổng thời lượng 140 giờ, tương đương 4,67 ECTS khi quy đổi sang hệ Đức (1 ECTS = 30 giờ)."
+  },
+  {
+    "id": 19,
+    "topic": "Xác nhận văn bằng",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "10.md",
+    "question": "Tra cứu thông tin văn bằng, chứng chỉ của ĐHBK Hà Nội ở đâu?",
+    "contexts": [
+      "Thông tin về văn bằng, chứng chỉ có thể tra cứu tại trang chủ của ĐHBK Hà Nội tại https://hust.edu.vn/ vào mục 'ĐÀO TẠO' và vào tiểu mục 'Tra cứu văn bằng'."
+    ],
+    "answer": "",
+    "ground_truth": "Tra cứu thông tin văn bằng, chứng chỉ của ĐHBK Hà Nội tại website https://hust.edu.vn/, vào mục 'ĐÀO TẠO' và tiểu mục 'Tra cứu văn bằng'."
+  },
+  {
+    "id": 20,
+    "topic": "Ngoại ngữ VLVH",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "3.md",
+    "question": "Sinh viên VLVH từ khóa 69 cần đáp ứng điều kiện ngoại ngữ gì để được xét nhận đồ án tốt nghiệp?",
+    "contexts": [
+      "Điều kiện được xét nhận đồ án/khóa luận tốt nghiệp: Đạt tối thiểu trình độ Bậc 3.1. Hoặc: Với sinh viên từ khóa 69 về sau: Đạt toàn bộ 05 học phần gồm FL1036, FL1037, FL1038, FL1039, FL1040."
+    ],
+    "answer": "",
+    "ground_truth": "Sinh viên VLVH từ khóa 69 trở về sau cần đạt toàn bộ 5 học phần tiếng Anh (FL1036–FL1040) hoặc đạt tối thiểu Bậc 3.1 để được xét nhận đồ án tốt nghiệp."
+  }
 ]
