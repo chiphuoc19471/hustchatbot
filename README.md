@@ -233,6 +233,3 @@ Dùng Live Server (VS Code extension) để tránh lỗi CORS khi gọi API.
 ##  Liên hệ
 
 > Hoàng Chí Phước - chiphuoc1947@gmail.com
-#   h u s t c h a t b o t 
- 
- 
