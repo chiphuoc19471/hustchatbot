@@ -1,14 +1,14 @@
 #  Chatbot Tư Vấn Quy Chế & Quy Định Đại học Bách Khoa Hà Nội (HUST)
 > Ứng dụng kỹ thuật RAG (Retrieval-Augmented Generation) và Mô hình Ngôn ngữ Lớn (LLM)
 
-<!-- TODO: chèn ảnh screenshot giao diện chatbot -->
-
----
+<p align="center">
+  <img src="R.jpg" alt="alt text" width="300" />
+</p>
 
 ##  Giới thiệu
 
 Hệ thống chatbot hỏi đáp về **quy chế, quy định của Đại học Bách Khoa Hà Nội (HUST)**, giúp sinh viên tra cứu nhanh các nội dung như: quy chế đào tạo, **chuẩn đầu ra tiếng Anh / ngoại ngữ**, điều kiện xét tốt nghiệp, học phí – học bổng, đăng ký học phần, khen thưởng – kỷ luật,... dựa trên các văn bản quy chế chính thức của Nhà trường.
-![alt text](R.jpg)
+
 ---
 
 ##  Tác giả
