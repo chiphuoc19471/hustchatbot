@@ -196,9 +196,9 @@ LLM_MODEL=gpt-4.1-mini
 
 Các tham số kỹ thuật của pipeline đặt trong `rag/config.py`:
 ```python
-CHUNK_SIZE = 600             # tokens, ưu tiên giữ ranh giới Điều/Khoản
-TOP_K_RETRIEVE = 15           # số chunk lấy từ Chroma
-TOP_N_RERANK = 4              # số chunk giữ lại sau LLM Reranker
+CHUNK_SIZE =  2000        # tokens, ưu tiên giữ ranh giới Điều/Khoản
+TOP_K_RETRIEVE = 30         # số chunk lấy từ Chroma
+TOP_N_RERANK = 8             # số chunk giữ lại sau LLM Reranker
 MAX_HISTORY_TURNS = 5         # số lượt hội thoại dùng cho Query Rewriting
 RERANKER_MODEL = "gpt-4.1-mini"
 ```
