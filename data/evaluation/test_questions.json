@@ -18,7 +18,7 @@
     "source_file": "5.md - Điều 4",
     "question": "Học phần tiên quyết và học phần học trước khác nhau như thế nào?",
     "contexts": [
-      "Điều kiện tham dự một học phần được quy định trong đề cương chi tiết của học phần gồm một hoặc nhiều yếu tố dưới đây: a) Học phần tiên quyết: Học phần A là học phần tiên quyết của học phần B thì sinh viên phải hoàn thành học phần A (với mức điểm đạt) mới được dự lớp học phần B. b) Học phần học trước: Học phần A là học phần học trước của học phần B thì sinh viên phải đăng ký và học xong (có thể chưa đạt) học phần A mới được dự lớp học phần B. c) Học phần song hành: Học phần A là học phần song hành của học phần B thì sinh viên phải theo học trước hoặc học đồng thời với học phần B."
+      "Học phần tiên quyết: Học phần A là học phần tiên quyết của học phần B thì sinh viên phải hoàn thành học phần A (với mức điểm đạt) mới được dự lớp học phần B. Học phần học trước: Học phần A là học phần học trước của học phần B thì sinh viên phải đăng ký và học xong (có thể chưa đạt) học phần A mới được dự lớp học phần B. Học phần song hành: Học phần A là học phần song hành của học phần B thì sinh viên phải theo học trước hoặc học đồng thời với học phần B."
     ],
     "answer": "",
     "ground_truth": "Học phần tiên quyết yêu cầu sinh viên phải hoàn thành và có điểm đạt mới được học tiếp. Học phần học trước chỉ cần đăng ký và học xong (dù chưa đạt điểm) mới được đăng ký học phần sau."
@@ -156,7 +156,7 @@
     "ground_truth": "Không. Điểm TOEIC Placement do ĐHBK tổ chức chỉ dùng để phân loại, xếp lớp và xét miễn học phần ngoại ngữ cơ bản; không được dùng để xét chuẩn ngoại ngữ đầu ra."
   },
   {
-    "id":14,
+    "id": 14,
     "topic": "Học phí",
     "type": "tra_cuu_truc_tiep",
     "source_file": "7.md",
@@ -210,7 +210,7 @@
     "source_file": "11.md",
     "question": "Học phần 3 tín chỉ phân bố (3-1-0-6) của ĐHBK tương đương bao nhiêu ECTS khi quy đổi sang hệ Đức?",
     "contexts": [
-      "Bảng quy đổi TC tương đương giữa ĐHBK Hà Nội và trường Đại học ở CHLB Đức (1 ECTS = 30 giờ): Học phần 3(3-1-0-6): Tổng số giờ học = (3×15 tiết + (1/2)×30 tiết)×50 phút/60 phút + 6×15 giờ = (45+15)×50/60 + 90 = 50 + 90 = 140 giờ. Quy đổi: 140 giờ ÷ 30 giờ/ECTS = 4,67 ECTS."
+      "Bảng quy đổi TC tương đương giữa ĐHBK Hà Nội và trường Đại học ở CHLB Đức (1 ECTS = 30 giờ): Học phần 3(3-1-0-6): Tổng số giờ học = (3×15 tiết + (1/2)×30 tiết)×50 phút/60 phút + 6×15 giờ = 140 giờ. Quy đổi: 140 giờ ÷ 30 giờ/ECTS = 4,67 ECTS."
     ],
     "answer": "",
     "ground_truth": "Học phần 3 tín chỉ phân bố 3(3-1-0-6) tại ĐHBK có tổng thời lượng 140 giờ, tương đương 4,67 ECTS khi quy đổi sang hệ Đức (1 ECTS = 30 giờ)."
@@ -238,5 +238,365 @@
     ],
     "answer": "",
     "ground_truth": "Sinh viên VLVH từ khóa 69 trở về sau cần đạt toàn bộ 5 học phần tiếng Anh (FL1036–FL1040) hoặc đạt tối thiểu Bậc 3.1 để được xét nhận đồ án tốt nghiệp."
+  },
+  {
+    "id": 21,
+    "topic": "Cảnh báo học tập",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "5.md - Điều 19",
+    "question": "Sinh viên bị nâng hai mức cảnh báo học tập trong trường hợp nào?",
+    "contexts": [
+      "Nâng hai mức cảnh báo học tập đối với sinh viên có số TC không đạt trong học kỳ lớn hơn 16 hoặc tự ý bỏ học, không đăng ký học tập."
+    ],
+    "answer": "",
+    "ground_truth": "Sinh viên bị nâng hai mức cảnh báo học tập khi số tín chỉ không đạt trong học kỳ lớn hơn 16, hoặc khi tự ý bỏ học/không đăng ký học tập."
+  },
+  {
+    "id": 22,
+    "topic": "Cảnh báo học tập",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "5.md - Điều 19",
+    "question": "Sinh viên đang bị cảnh báo học tập mức 2 của chương trình chuẩn được đăng ký tối đa bao nhiêu tín chỉ mỗi kỳ?",
+    "contexts": [
+      "Sinh viên thuộc các CTĐT chuẩn được đăng ký tối đa 14 TC và tối thiểu 8 TC cho một học kỳ chính đối với sinh viên đang bị cảnh báo học tập từ mức 2 trở lên."
+    ],
+    "answer": "",
+    "ground_truth": "Sinh viên chương trình chuẩn đang bị cảnh báo mức 2 trở lên chỉ được đăng ký tối đa 14 tín chỉ và tối thiểu 8 tín chỉ trong một học kỳ chính."
+  },
+  {
+    "id": 23,
+    "topic": "Đăng ký học tập",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "5.md - Điều 10",
+    "question": "Sinh viên không thuộc diện cảnh báo học tập được đăng ký tối đa bao nhiêu tín chỉ trong học kỳ chính?",
+    "contexts": [
+      "Sinh viên không thuộc diện cảnh báo học tập theo quy định tại khoản 1 Điều 19 của Quy chế này được đăng ký tối đa 24 TC và tối thiểu 12 TC trong học kỳ chính, không áp dụng ngưỡng TC đăng ký tối thiểu với sinh viên trình độ năm cuối. Sinh viên được đăng ký tối đa 8 TC trong học kỳ hè."
+    ],
+    "answer": "",
+    "ground_truth": "Sinh viên không bị cảnh báo được đăng ký tối đa 24 tín chỉ và tối thiểu 12 tín chỉ trong học kỳ chính. Trong học kỳ hè, tối đa 8 tín chỉ."
+  },
+  {
+    "id": 24,
+    "topic": "Tốt nghiệp đại học",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "5.md - Điều 14",
+    "question": "Điều kiện CPA tối thiểu để được xét công nhận tốt nghiệp đại học là bao nhiêu?",
+    "contexts": [
+      "Sinh viên có đủ các điều kiện sau đây thì được xét công nhận tốt nghiệp: Đã hoàn thành đầy đủ các học phần theo yêu cầu của CTĐT trong thời gian quy định. Đạt chuẩn ngoại ngữ đầu ra. Điểm trung bình tích lũy toàn khóa (tính theo các học phần đăng ký tốt nghiệp) đạt từ 2,0 trở lên."
+    ],
+    "answer": "",
+    "ground_truth": "Điểm trung bình tích lũy toàn khóa (CPA) tối thiểu để xét tốt nghiệp đại học là 2,0 theo thang 4."
+  },
+  {
+    "id": 25,
+    "topic": "Hạng tốt nghiệp",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "5.md - Điều 34",
+    "question": "Hạng tốt nghiệp thạc sĩ được xếp loại 'Xuất sắc' khi điểm CPA toàn khóa đạt mức nào?",
+    "contexts": [
+      "Hạng tốt nghiệp thạc sĩ được xếp dựa trên điểm trung bình tích lũy toàn khóa: CPA 2,0 - 2,49: Trung bình; CPA 2,5 - 3,19: Khá; CPA 3,2 - 3,59: Giỏi; CPA 3,6 - 4,0: Xuất sắc."
+    ],
+    "answer": "",
+    "ground_truth": "Hạng tốt nghiệp thạc sĩ 'Xuất sắc' đạt khi CPA từ 3,6 đến 4,0."
+  },
+  {
+    "id": 26,
+    "topic": "Học cùng lúc hai chương trình",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "5.md - Điều 18",
+    "question": "Sinh viên đăng ký học chương trình thứ hai sớm nhất từ khi nào?",
+    "contexts": [
+      "Sinh viên được phép đăng ký học chương trình thứ hai sớm nhất khi đã được xếp trình độ năm thứ hai của chương trình thứ nhất. Tại thời điểm đăng ký, sinh viên phải có học lực tính theo điểm trung bình tích lũy (CPA) xếp loại từ trung bình trở lên và đáp ứng điều kiện trúng tuyển của chương trình thứ hai trong năm tuyển sinh."
+    ],
+    "answer": "",
+    "ground_truth": "Sinh viên đăng ký học chương trình thứ hai sớm nhất khi đã được xếp trình độ năm thứ hai của chương trình thứ nhất, và CPA từ mức trung bình trở lên."
+  },
+  {
+    "id": 27,
+    "topic": "Luận văn thạc sĩ",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "5.md - Điều 32",
+    "question": "Hội đồng đánh giá luận văn thạc sĩ được cho điểm bảo vệ từ 8,5 trở lên trong điều kiện nào?",
+    "contexts": [
+      "Hội đồng đánh giá luận văn cho điểm bảo vệ luận văn từ 8,5 trở lên chỉ khi học viên có công bố khoa học liên quan đến nội dung luận văn."
+    ],
+    "answer": "",
+    "ground_truth": "Hội đồng chỉ được cho điểm bảo vệ luận văn từ 8,5 trở lên khi học viên có công bố khoa học liên quan đến nội dung luận văn."
+  },
+  {
+    "id": 28,
+    "topic": "Tiến sĩ",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "5.md - Điều 41",
+    "question": "NCS cần có ít nhất bao nhiêu bài báo khoa học để đủ điều kiện bảo vệ luận án cấp cơ sở?",
+    "contexts": [
+      "NCS phải là tác giả chính (tác giả đứng tên đầu hoặc tác giả liên hệ duy nhất) của tối thiểu 2 bài báo về kết quả nghiên cứu của luận án trong đó có 1 bài đăng trên tạp chí khoa học thuộc danh mục các tạp chí ISI-Scopus và 1 bài đăng trên tạp chí khoa học được hội đồng giáo sư Nhà nước quy định khung điểm 0,75 điểm trở lên theo ngành đào tạo."
+    ],
+    "answer": "",
+    "ground_truth": "NCS cần ít nhất 2 bài báo: một bài đăng trên tạp chí ISI/Scopus và một bài đăng trên tạp chí được HĐGSNN quy định khung điểm 0,75 trở lên. Tổng điểm các công trình phải đạt từ 2,0 điểm trở lên."
+  },
+  {
+    "id": 29,
+    "topic": "Tiến sĩ",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "5.md - Điều 39",
+    "question": "NCS phải hoàn thành bao nhiêu chuyên đề tiến sĩ và trong thời hạn nào?",
+    "contexts": [
+      "NCS phải hoàn thành 3 chuyên đề tiến sĩ tương đương với khối lượng 6 TC với thời hạn chậm nhất là 1 tháng trước khi trình hồ sơ đăng ký đánh giá luận án ở đơn vị chuyên môn."
+    ],
+    "answer": "",
+    "ground_truth": "NCS phải hoàn thành 3 chuyên đề tiến sĩ (tương đương 6 tín chỉ) chậm nhất 1 tháng trước khi trình hồ sơ đăng ký bảo vệ luận án cấp cơ sở."
+  },
+  {
+    "id": 30,
+    "topic": "Học phí – sau đại học",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "7.md",
+    "question": "Mức học phí tiêu chuẩn cho chương trình thạc sĩ ngành kỹ thuật tại ĐHBK năm học 2025-2026 là bao nhiêu?",
+    "contexts": [
+      "Chương trình đào tạo sau đại học - 1) Chương trình đào tạo chuẩn: Thạc sĩ (các ngành kỹ thuật, công nghệ): 720.000 đồng/TCHP. Thạc sĩ (các ngành kinh tế): 780.000 đồng/TCHP. Tiến sĩ: 26 triệu đồng/năm."
+    ],
+    "answer": "",
+    "ground_truth": "Học phí chương trình thạc sĩ ngành kỹ thuật, công nghệ là 720.000 đồng/tín chỉ học phí."
+  },
+  {
+    "id": 31,
+    "topic": "Học phí – học kỳ hè",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "7.md",
+    "question": "Học phí học kỳ hè được tính như thế nào so với học kỳ chính?",
+    "contexts": [
+      "Mức học phí học kỳ hè được tính bằng 1,5 lần mức học phí quy định tại mục 1, 2, 3 của Phụ lục này, ngoại trừ một số học phần được tính bằng mức học phí tại mục 1, 2, 3 của Phụ lục này."
+    ],
+    "answer": "",
+    "ground_truth": "Học phí học kỳ hè bằng 1,5 lần mức học phí học kỳ chính tương ứng (ngoại trừ một số học phần do nhà trường quyết định)."
+  },
+  {
+    "id": 32,
+    "topic": "Quy đổi ECTS",
+    "type": "tinh_toan",
+    "source_file": "11.md",
+    "question": "Một học phần thực tập 6 tín chỉ phân bổ (0-0-12-12) của ĐHBK tương đương bao nhiêu ECTS ở Đức?",
+    "contexts": [
+      "Bảng quy đổi TC tương đương giữa ĐHBK Hà Nội và trường Đại học ở CHLB Đức: HP thực tập, ĐAMH, ĐATN - 6(0-0-12-12): Tổng số thời lượng học tập 330 giờ; Thời lượng ECTS ở CHLB Đức 1 ECTS = 30 giờ; Quy đổi TC tương đương sang ECTS: 11 ECTS."
+    ],
+    "answer": "",
+    "ground_truth": "Học phần thực tập 6(0-0-12-12) có tổng 330 giờ, tương đương 11 ECTS theo hệ Đức (1 ECTS = 30 giờ)."
+  },
+  {
+    "id": 33,
+    "topic": "Ngoại ngữ VLVH",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "3.md",
+    "question": "Sinh viên VLVH khóa 66 cần đáp ứng điều kiện ngoại ngữ gì khi xét tốt nghiệp?",
+    "contexts": [
+      "Đối với sinh viên khoá 66: Chỉ áp dụng điều kiện về trình độ ngoại ngữ tiếng Anh khi xét tốt nghiệp theo quy định tại Bảng 2.2 (đạt tối thiểu Bậc 3.1)."
+    ],
+    "answer": "",
+    "ground_truth": "Sinh viên VLVH khóa 66 chỉ cần đạt tối thiểu trình độ Bậc 3.1 khi xét tốt nghiệp (không yêu cầu điều kiện chuẩn ngoại ngữ theo học kỳ như các khóa sau)."
+  },
+  {
+    "id": 34,
+    "topic": "Quy đổi chứng chỉ ngoại ngữ",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "4.md",
+    "question": "Điểm IELTS 5.5 tương đương với điểm TOEIC 2 kỹ năng và điểm VSTEP theo bảng quy đổi của ĐHBK?",
+    "contexts": [
+      "Bảng quy đổi tương đương các chứng chỉ tiếng Anh: IELTS (Academic) ≥ 5.5 tương đương TOEIC ≥ 650, VSTEP ≥ 6, PET with Distinction hoặc FCE với grade C/B/A hoặc CAE với grade C/B. Cambridge Scale ≥ 160."
+    ],
+    "answer": "",
+    "ground_truth": "IELTS 5.5 tương đương TOEIC 2 kỹ năng từ 650 điểm trở lên và VSTEP từ 6.0 trở lên theo bảng quy đổi của ĐHBK."
+  },
+  {
+    "id": 35,
+    "topic": "Kỹ sư chuyên sâu - học bổ sung",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "1.md",
+    "question": "Người học KSCS đã tốt nghiệp đại học đúng ngành nhưng khác định hướng chuyên sâu phải học bổ sung tối đa bao nhiêu tín chỉ?",
+    "contexts": [
+      "Người học đã tốt nghiệp đại học hoặc thạc sĩ đúng ngành nhưng khác định hướng chuyên sâu của CTĐT KSCS: trong trường hợp cần thiết sẽ phải học bổ sung tối đa 12 tín chỉ của các học phần thuộc khối kiến thức định hướng chuyên ngành theo đề xuất của trường/khoa quản ngành."
+    ],
+    "answer": "",
+    "ground_truth": "Người học đúng ngành nhưng khác định hướng chuyên sâu phải học bổ sung tối đa 12 tín chỉ thuộc khối kiến thức định hướng chuyên ngành."
+  },
+  {
+    "id": 36,
+    "topic": "Kỹ sư chuyên sâu - điều kiện đầu vào",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "1.md",
+    "question": "Người dự tuyển vào CTĐT KSCS cần yêu cầu ngoại ngữ tối thiểu ở mức nào?",
+    "contexts": [
+      "Người dự tuyển đáp ứng các yêu cầu sau được đăng ký xét tuyển vào học CTĐT KSCS: b) Đã tốt nghiệp từ bậc đại học trở lên với CTĐT có chuẩn đầu ra ngoại ngữ tương đương bậc 3/6 trở lên theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam."
+    ],
+    "answer": "",
+    "ground_truth": "Người dự tuyển KSCS cần tốt nghiệp đại học với chương trình có chuẩn đầu ra ngoại ngữ tương đương Bậc 3/6 theo Khung năng lực ngoại ngữ 6 bậc Việt Nam trở lên."
+  },
+  {
+    "id": 37,
+    "topic": "Điểm liệt",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "5.md - Điều 5",
+    "question": "Điểm liệt của học phần đồ án/khóa luận tốt nghiệp được quy định là bao nhiêu?",
+    "contexts": [
+      "Điểm số dưới 5 đối với học phần đồ án tốt nghiệp/khóa luận tốt nghiệp cử nhân, đồ án tốt nghiệp kỹ sư được coi là điểm liệt. Điểm số dưới 3 đối với các học phần khác với quy định tại điểm a khoản 5 Điều này được coi là điểm liệt."
+    ],
+    "answer": "",
+    "ground_truth": "Với đồ án/khóa luận tốt nghiệp, điểm liệt là dưới 5. Với các học phần thông thường khác, điểm liệt là dưới 3."
+  },
+  {
+    "id": 38,
+    "topic": "Thạc sĩ – điều kiện bảo vệ",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "5.md - Điều 31",
+    "question": "Học viên thạc sĩ cần đạt chuẩn ngoại ngữ đầu ra tối thiểu ở mức nào để được bảo vệ luận văn?",
+    "contexts": [
+      "Học viên có đủ các điều kiện sau đây thì được bảo vệ luận văn thạc sĩ: Đạt chuẩn ngoại ngữ đầu ra tương đương bậc 4/6 theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam hoặc các chứng chỉ tương đương khác do nhà trường quy định, hoặc bằng tốt nghiệp trình độ đại học trở lên ngành ngôn ngữ nước ngoài, hoặc bằng tốt nghiệp trình độ đại học trở lên ngành khác mà chương trình được thực hiện hoàn toàn bằng ngôn ngữ nước ngoài."
+    ],
+    "answer": "",
+    "ground_truth": "Học viên thạc sĩ cần đạt chuẩn ngoại ngữ tương đương Bậc 4/6 theo Khung năng lực ngoại ngữ Việt Nam (hoặc tương đương) trước khi bảo vệ luận văn."
+  },
+  {
+    "id": 39,
+    "topic": "Tiến sĩ – hội đồng bảo vệ",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "5.md - Điều 42",
+    "question": "Hội đồng đánh giá luận án tiến sĩ cấp cơ sở có bao nhiêu thành viên và được thành lập bởi ai?",
+    "contexts": [
+      "Hội đồng đánh giá luận án cấp cơ sở do hiệu trưởng trường/trưởng khoa/viện trưởng thừa uỷ quyền của nhà trường ra quyết định thành lập có 7 thành viên gồm chủ tịch, thư ký, 2 phản biện và các uỷ viên. Khoảng thời gian tổ chức đánh giá luận án cấp cơ sở là sau 21 ngày và trước 45 ngày tính từ ngày ban hành quyết định thành lập hội đồng cấp cơ sở."
+    ],
+    "answer": "",
+    "ground_truth": "Hội đồng cấp cơ sở có 7 thành viên (chủ tịch, thư ký, 2 phản biện và các ủy viên), được thành lập bởi hiệu trưởng hoặc người được ủy quyền. Tổ chức bảo vệ trong khoảng 21-45 ngày sau quyết định thành lập."
+  },
+  {
+    "id": 40,
+    "topic": "Nghỉ học tạm thời – cử nhân",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "5.md - Điều 16",
+    "question": "Thời gian nghỉ học tạm thời vì lý do ốm bệnh của sinh viên cử nhân tối đa không tính vào thời gian chậm tiến độ là bao nhiêu học kỳ?",
+    "contexts": [
+      "Thời gian nghỉ học tạm thời do sinh viên bị ốm, thai sản hoặc tai nạn buộc phải điều trị thời gian dài không tính vào thời gian chậm tiến độ nếu tổng cộng không vượt quá 04 học kỳ chính; thời gian nghỉ trên 04 học kỳ được tính vào thời gian học chậm tiến độ."
+    ],
+    "answer": "",
+    "ground_truth": "Thời gian nghỉ do ốm, thai sản hoặc tai nạn không tính vào thời gian chậm tiến độ nếu tổng không quá 4 học kỳ chính. Từ học kỳ thứ 5 trở đi sẽ tính vào thời gian chậm tiến độ."
+  },
+  {
+    "id": 41,
+    "topic": "Ngoại ngữ chính quy – khóa 70",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "2.md",
+    "question": "Sinh viên chính quy từ khóa 70 học chương trình chuẩn cần đạt chuẩn ngoại ngữ đầu ra tiếng Anh ở mức nào?",
+    "contexts": [
+      "Chuẩn đầu ra khi xét tốt nghiệp với CTĐT chuẩn (trừ các CTĐT nhóm ngành ngôn ngữ): Đạt chứng chỉ trình độ tối thiểu Bậc 3 (theo Bảng 2.1 của Phụ lục II)."
+    ],
+    "answer": "",
+    "ground_truth": "Sinh viên khóa 70 học chương trình chuẩn cần đạt tối thiểu Bậc 3 theo Khung năng lực ngoại ngữ 6 bậc Việt Nam để được xét tốt nghiệp."
+  },
+  {
+    "id": 42,
+    "topic": "Ngoại ngữ chính quy – ELITECH",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "2.md",
+    "question": "Chuẩn đầu ra ngoại ngữ của sinh viên chương trình ELITECH tăng cường tiếng Anh từ khóa 70 là bao nhiêu?",
+    "contexts": [
+      "Chuẩn đầu ra khi xét tốt nghiệp (với CTĐT ELITECH tăng cường ngoại ngữ tiếng Anh): Đạt chứng chỉ trình độ tối thiểu Bậc 4 (theo Bảng 2.1 của Phụ lục II)."
+    ],
+    "answer": "",
+    "ground_truth": "Sinh viên chương trình ELITECH tăng cường tiếng Anh cần đạt tối thiểu Bậc 4 khi xét tốt nghiệp."
+  },
+  {
+    "id": 43,
+    "topic": "Ngoại ngữ – tiếng Pháp PFIEV",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "2.md",
+    "question": "Chuẩn đầu ra tiếng Pháp để tốt nghiệp cử nhân của sinh viên PFIEV là gì?",
+    "contexts": [
+      "Chuẩn đầu ra khi xét tốt nghiệp cử nhân (CTĐT Việt-Pháp PFIEV): Đạt trình độ tối thiểu DELF B1 hoặc tương đương theo Bảng 5.3."
+    ],
+    "answer": "",
+    "ground_truth": "Sinh viên PFIEV cần đạt tối thiểu DELF B1 (hoặc tương đương) để được xét tốt nghiệp cử nhân."
+  },
+  {
+    "id": 44,
+    "topic": "Học phí – chương trình VLVH",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "7.md",
+    "question": "Học phí chuẩn mỗi tín chỉ của chương trình VLVH ngành Công nghệ thông tin năm học 2025-2026 là bao nhiêu?",
+    "contexts": [
+      "Chương trình đào tạo hình thức vừa làm vừa học - 1) Các chương trình đào tạo chuẩn: Công nghệ thông tin, Kỹ thuật (KT) máy tính, Khoa học máy tính,... và các ngành/chương trình đào tạo chuẩn khác: 440 nghìn đồng/TCHP."
+    ],
+    "answer": "",
+    "ground_truth": "Học phí của chương trình VLVH ngành Công nghệ thông tin là 440 nghìn đồng/tín chỉ học phí."
+  },
+  {
+    "id": 45,
+    "topic": "Luận văn thạc sĩ – bảo vệ lần hai",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "5.md - Điều 33",
+    "question": "Học viên được phép bảo vệ luận văn thạc sĩ lần hai trong thời hạn bao lâu kể từ lần bảo vệ đầu tiên?",
+    "contexts": [
+      "Trong trường hợp luận văn không đạt và học viên còn được phép học tối thiểu 3 tháng, học viên được phép chỉnh sửa, bổ sung luận văn để bảo vệ lần thứ hai trong thời hạn 3 tháng tính từ ngày bảo vệ luận văn lần thứ nhất."
+    ],
+    "answer": "",
+    "ground_truth": "Học viên được bảo vệ luận văn lần hai trong vòng 3 tháng kể từ ngày bảo vệ lần đầu, với điều kiện còn được phép học ít nhất 3 tháng."
+  },
+  {
+    "id": 46,
+    "topic": "Quy đổi tín chỉ ECTS",
+    "type": "tinh_toan",
+    "source_file": "11.md",
+    "question": "Một học phần lý thuyết 1 tín chỉ phân bổ (1-0-0-2) tại ĐHBK tương đương bao nhiêu ECTS ở Đức?",
+    "contexts": [
+      "Bảng quy đổi TC tương đương giữa ĐHBK Hà Nội và trường Đại học ở CHLB Đức: HP lý thuyết, bài tập, thí nghiệm/thực hành - 1(1-0-0-2): Tổng số thời lượng học tập 42,5 giờ; Thời lượng ECTS ở CHLB Đức 1 ECTS = 30 giờ; Quy đổi TC tương đương sang ECTS: 1,42 ECTS."
+    ],
+    "answer": "",
+    "ground_truth": "Học phần 1(1-0-0-2) có tổng 42,5 giờ, tương đương 1,42 ECTS theo hệ Đức."
+  },
+  {
+    "id": 47,
+    "topic": "KSCS – cấu trúc chương trình",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "1.md",
+    "question": "Trong CTĐT KSCS, khối kiến thức chuyên ngành cốt lõi yêu cầu bao nhiêu tín chỉ và có những yêu cầu đặc biệt nào?",
+    "contexts": [
+      "Kiến thức chuyên ngành cốt lõi: 19-20 tín chỉ. Kiến thức chuyên sâu bắt buộc theo chuyên ngành, được thiết kế theo mô đun. Mỗi mô đun tương ứng với một chuyên ngành, học viên phải học tất cả các học phần trong mô đun đã chọn. Trong mỗi mô đun cần đảm bảo: Có ít nhất một (01) Đồ án môn học với thời lượng 2-3 tín chỉ; Có học phần Quản trị dự án (kỹ thuật) với thời lượng 2 tín chỉ."
+    ],
+    "answer": "",
+    "ground_truth": "Khối kiến thức chuyên ngành cốt lõi KSCS yêu cầu 19-20 tín chỉ, thiết kế theo mô đun chuyên ngành, bắt buộc có ít nhất 1 Đồ án môn học (2-3 tín chỉ) và học phần Quản trị dự án kỹ thuật (2 tín chỉ)."
+  },
+  {
+    "id": 48,
+    "topic": "Ngoại ngữ – HSK tiếng Trung",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "2.md",
+    "question": "Chứng chỉ HSK3 tương đương bậc mấy theo Khung năng lực ngoại ngữ 6 bậc Việt Nam?",
+    "contexts": [
+      "Xếp bậc chứng chỉ tiếng Trung Quốc theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam: HSK1 tương đương Bậc 1, HSK2 tương đương Bậc 2, HSK3 và HSKK sơ cấp tương đương Bậc 3, HSK4 và HSKK trung cấp tương đương Bậc 4, HSK5 và HSKK cao cấp tương đương Bậc 5, HSK6 tương đương Bậc 6."
+    ],
+    "answer": "",
+    "ground_truth": "HSK3 (và HSKK sơ cấp) tương đương Bậc 3 theo Khung năng lực ngoại ngữ 6 bậc Việt Nam."
+  },
+  {
+    "id": 49,
+    "topic": "Tiến sĩ – điều kiện nhận bằng",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "5.md - Điều 44",
+    "question": "NCS phải nộp toàn văn luận án hoàn chỉnh lên trang thông tin điện tử của ĐHBK trong bao lâu sau khi được hội đồng cấp Đại học thông qua?",
+    "contexts": [
+      "Toàn văn luận án hoàn chỉnh cuối cùng của NCS được đăng trên trang thông tin điện tử thuộc ĐHBK Hà Nội (trừ những luận án được đánh giá theo chế độ mật) trong thời gian 3 tháng."
+    ],
+    "answer": "",
+    "ground_truth": "Toàn văn luận án hoàn chỉnh phải được đăng tải trên trang thông tin điện tử của ĐHBK trong thời gian 3 tháng (trừ luận án mật)."
+  },
+  {
+    "id": 50,
+    "topic": "Ngoại ngữ – JLPT tiếng Nhật",
+    "type": "tra_cuu_truc_tiep",
+    "source_file": "2.md",
+    "question": "Chứng chỉ tiếng Nhật JLPT N4 tương đương bậc mấy theo Khung năng lực ngoại ngữ 6 bậc Việt Nam?",
+    "contexts": [
+      "Bảng 7.4 Bảng xếp bậc các chứng chỉ tiếng Nhật theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam: JLPT N5 tương đương Bậc 2, JLPT N4 tương đương Bậc 3, JLPT N3 tương đương Bậc 4, JLPT N2 tương đương Bậc 5, JLPT N1 tương đương Bậc 6."
+    ],
+    "answer": "",
+    "ground_truth": "JLPT N4 tương đương Bậc 3 theo Khung năng lực ngoại ngữ 6 bậc Việt Nam."
   }
 ]
