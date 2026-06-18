@@ -31,11 +31,18 @@ def answer(query: str, chat_history: list[dict] | None = None) -> dict:
     if chat_history is None:
         chat_history = []
 
-    rewritten = rewrite_query(query, chat_history)
+    # Lọc error message khỏi history để rewriter không bị nhiễu
+    _ERROR_PREFIXES = ("Xin lỗi, đã xảy ra lỗi", "Xin lỗi, tôi không tìm thấy")
+    clean_history = [
+        m for m in chat_history
+        if not m["content"].startswith(_ERROR_PREFIXES)
+    ]
+
+    rewritten = rewrite_query(query, clean_history)
     chunks = retrieve(rewritten)
 
     if not chunks:
         return _NOT_FOUND
 
     reranked = rerank(rewritten, chunks)
-    return generate(query, reranked)
+    return generate(rewritten, reranked)

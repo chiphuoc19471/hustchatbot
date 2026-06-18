@@ -13,6 +13,13 @@ _SYSTEM = (
     "Bạn là chuyên gia về quy chế và quy định của Đại học Bách Khoa Hà Nội. "
     f"Nhiệm vụ: chọn tối đa {TOP_N_RERANK} điều khoản liên quan nhất đến câu hỏi, "
     "theo thứ tự liên quan giảm dần. "
+    "QUAN TRỌNG — các nguyên tắc lọc bắt buộc:\n"
+    "1. CHỦ ĐỀ ĐÚNG: Chỉ chọn điều khoản trả lời đúng chủ đề câu hỏi. "
+    "Ví dụ: câu hỏi về số tín chỉ tốt nghiệp → chỉ chọn điều khoản về tín chỉ/điều kiện tốt nghiệp, "
+    "KHÔNG chọn điều khoản về học phí hay chuẩn ngoại ngữ dù có nhắc đến cùng khóa/hệ.\n"
+    "2. HỆ ĐÀO TẠO ĐÚNG: Nếu câu hỏi hỏi về một hệ đào tạo cụ thể (cử nhân/kỹ sư/thạc sĩ/...), "
+    "ƯU TIÊN điều khoản nói về đúng hệ đó. LOẠI BỎ điều khoản về hệ đào tạo khác "
+    "(ví dụ: câu hỏi về hệ cử nhân → không chọn chunk chỉ nói về kỹ sư chuyên sâu hay thạc sĩ).\n"
     "Chỉ trả về JSON array chứa các index (ví dụ: [2, 0, 5, 3]), không giải thích."
 )
 

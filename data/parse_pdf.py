@@ -1,10 +1,3 @@
-"""
-Bước 1: Chuyển PDF → Markdown bằng OpenDataLoader PDF.
-Yêu cầu: Java 11+ và opendataloader-pdf
-
-Chạy:
-    python data/parse_pdf.py
-"""
 import os
 
 try:

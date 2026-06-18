@@ -58,7 +58,7 @@ def main():
     llm = LangchainLLMWrapper(ChatOpenAI(model=os.getenv("LLM_MODEL", "gpt-4.1-mini"), temperature=0))
     embeddings = LangchainEmbeddingsWrapper(OpenAIEmbeddings(model=os.getenv("EMBEDDING_MODEL", "text-embedding-3-small")))
 
-    metrics = [faithfulness, context_recall, context_precision]
+    metrics = [answer_relevancy, faithfulness, context_recall, context_precision]
     # metrics = [answer_relevancy]
     for m in metrics:
         m.llm = llm
