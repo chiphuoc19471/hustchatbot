@@ -1,7 +1,5 @@
 """
-Generator: sinh câu trả lời từ các chunks đã rerank,
-trả về answer + sources theo interface đã thống nhất với Backend.
-"""
+Generator: sinh câu trả lời từ các chunks đã rerank"""
 import re
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage, SystemMessage

@@ -1,9 +1,3 @@
-"""
-Entry point cho Backend gọi.
-Sử dụng:
-    from rag.pipeline import answer
-    result = answer(query="...", chat_history=[...])
-"""
 from rag.rewriter import rewrite_query
 from rag.retriever import retrieve
 from rag.reranker import rerank
