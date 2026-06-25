@@ -1,7 +1,6 @@
 """
 Hybrid retriever: kết hợp Semantic Search (Chroma) + BM25 keyword search
 bằng EnsembleRetriever với Reciprocal Rank Fusion (RRF).
-Giữ nguyên TOP_K_RETRIEVE, chất lượng retrieval tốt hơn không tốn thêm token.
 """
 import json
 import glob
@@ -40,7 +39,7 @@ def _get_ensemble_retriever() -> EnsembleRetriever:
     if _ensemble_retriever is not None:
         return _ensemble_retriever
 
-    # Mỗi retriever lấy TOP_K_RETRIEVE//2 để tổng sau RRF vẫn ~TOP_K_RETRIEVE
+    # Mỗi retriever lấy TOP_K_RETRIEVE//2 
     k_each = max(TOP_K_RETRIEVE // 2, 10)
 
     # Semantic retriever (Chroma)

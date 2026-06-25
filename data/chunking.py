@@ -6,14 +6,11 @@ import re
 # Thư viện của Langchain dùng để cắt văn bản
 from langchain_text_splitters import MarkdownHeaderTextSplitter, RecursiveCharacterTextSplitter
 
-# XỬ LÝ BẢNG BIỂU (TABLES)
-# Mục đích: LLM đọc Markdown Table thuần túy rất kém. Nếu bảng bị cắt đôi 
-# giữa 2 chunk, LLM sẽ hoàn toàn mù tịt. Giải pháp ở đây là biến bảng 
-# thành các câu văn xuôi, cất đi, cắt chunk xong mới nhét lại.
+# XỬ LÝ BẢNG BIỂU 
+# LLM đọc Markdown Table thuần túy rất kém. Nếu bảng bị cắt đôi giữa 2 chunk, LLM sẽ hoàn toàn mù tịt. Giải pháp ở đây là biến bảng thành các câu văn xuôi, cất đi, cắt chunk xong mới nhét lại.
 
 def _fill_merged_cells(table_text: str) -> str:
     """
-    Khi chuyển PDF sang Text, các ô gộp thường bị rỗng ở các hàng dưới.
     Hàm này "kéo" giá trị từ hàng trên xuống ô rỗng bên dưới để khôi phục dữ liệu bảng.
     """
     lines = table_text.split('\n')
@@ -51,10 +48,9 @@ def _fill_merged_cells(table_text: str) -> str:
 
 def _table_to_prose(table_text: str) -> str:
     """
-    Biến bảng thành văn xuôi. 
+    Biến bảng thành văn xuôi do LLM sẽ đọc tốt hơn. 
     Thay vì để: | HP lý thuyết | 3(2-1) |
     Sẽ biến thành: "Cột 1: HP lý thuyết, Cột 2: 3(2-1)."
-    LLM đọc văn xuôi (prose) sẽ embed và hiểu ngữ nghĩa tốt hơn nhiều so với dấu gạch |.
     """
     # Hàm phụ để tách các ô trong 1 hàng
     def parse_row(line: str) -> list[str]:
@@ -102,8 +98,8 @@ def _table_to_prose(table_text: str) -> str:
 
 def extract_tables(md_text: str) -> tuple[str, dict]:
     """
-    Kỹ thuật "Placeholder" (Giữ chỗ). 
-    Hàm này "móc" các bảng ra khỏi text, thay thế nó bằng dòng chữ như {{TABLE_0}}.
+    Kỹ thuật "Placeholder". 
+    Hàm này cho các bảng ra khỏi text, thay thế nó bằng dòng chữ như {{TABLE_0}}.
     Mục đích: Không cho Langchain cắt đứt đôi cái bảng. Bảng được cất an toàn trong biến `tables`.
     """
     tables: dict[str, str] = {}
@@ -133,16 +129,13 @@ def restore_tables(text: str, tables: dict) -> str:
     return text
 
 #CHUẨN HÓA HEADING & ẢNH
-
 def strip_images(md_text: str) -> str:
-    # Xóa ảnh
     return re.sub(r'!\[.*?\]\(.*?\)', '', md_text)
 
 def fix_markdown_hierarchy(md_text: str) -> str:
     """
     Langchain chia chunk dựa vào số lượng dấu #.
     Hàm này đảm bảo mọi "Chương" đều là H1 (#), "Mục" là H2 (##), "Điều" là H3 (###).
-    Như vậy Langchain mới hiểu cây cấu trúc của Quy chế.
     """
     md_text = re.sub(r'^(#+)\s*\**\s*(Chương\s+[IVXLCDM\d]+)\s*\**', r'# \2', md_text, flags=re.MULTILINE | re.IGNORECASE)
     md_text = re.sub(r'^(#+)\s*\**\s*(Mục\s+\d+)\s*\**', r'## \2', md_text, flags=re.MULTILINE | re.IGNORECASE)
@@ -168,7 +161,7 @@ def chunk_markdown_files(processed_dir: str = 'processed_2', chunk_dir: str = 'c
         ("##",  "Mục"),
         ("###", "Điều"),
     ]
-    # Chunker 1: Chuyên cắt theo dấu # (Giúp 1 Điều luật luôn nằm trọn trong 1 chunk, không bị cắt ngang câu)
+    # Chunker 1: Chuyên cắt theo dấu # (Giúp 1 quy định luôn nằm trọn trong 1 chunk, không bị cắt ngang câu)
     markdown_splitter = MarkdownHeaderTextSplitter(headers_to_split_on=headers_to_split_on, strip_headers=False)
     
     # Chunker 2: Nếu có 1 Điều luật dài quá 2000 ký tự, Chunker 1 sẽ thất bại. 
@@ -180,15 +173,6 @@ def chunk_markdown_files(processed_dir: str = 'processed_2', chunk_dir: str = 'c
         filename = os.path.basename(md_path)
         print(f"Đang chunking: {filename}...")
 
-        # # --- TÌM & ĐỌC METADATA (CỦA FILE CLEAN_MD.PY TRUYỀN SANG) ---
-        # meta_filename = filename.replace('.md', '_meta.json')
-        # meta_path = os.path.join(processed_dir, meta_filename)
-        # doc_meta = {}
-        # if os.path.exists(meta_path):
-        #     with open(meta_path, 'r', encoding='utf-8') as fm:
-        #         doc_meta = json.load(fm) # Chứa Số QĐ và Ngày ban hành
-        # # -------------------------------------------------------------
-
         # Đọc text trong file
         with open(md_path, 'r', encoding='utf-8') as f:
             raw_md = f.read()
@@ -197,7 +181,7 @@ def chunk_markdown_files(processed_dir: str = 'processed_2', chunk_dir: str = 'c
         fixed_md = fix_markdown_hierarchy(raw_md)
         fixed_md = strip_images(fixed_md)
         
-        # Móc bảng biểu ra cất đi
+        # cấ3t bảng đi
         md_no_tables, tables = extract_tables(fixed_md)
         
         # Thực hiện việc cắt (Cắt theo # trước, sau đó cắt theo số lượng ký tự)
@@ -207,19 +191,14 @@ def chunk_markdown_files(processed_dir: str = 'processed_2', chunk_dir: str = 'c
         chunks_data = []
         # Duyệt qua từng Chunk đã cắt thành công
         for i, doc in enumerate(final_splits):
-            # Nhét lại các bảng biểu vào đúng vị trí của nó
+            # Nhét lại các bảng biểu
             text_with_tables = restore_tables(doc.page_content, tables)
             
-            # --- CẤU HÌNH METADATA (DỮ LIỆU MÔ TẢ ĐI KÈM CHUNK) ---
+            # meta data
             chunk_metadata = dict(doc.metadata) # Lấy meta có sẵn của Langchain (như Chương mấy, Điều mấy)
             chunk_metadata["Source"] = filename # Ghi chú Chunk này xuất phát từ file nào
             chunk_metadata["Chunk_ID"] = i + 1  # Đánh số thứ tự Chunk
             
-            # # Bơm Metadata Quyết định/Ngày tháng lấy từ file json nãy vào đây
-            # if doc_meta:
-            #     for key, val in doc_meta.items():
-            #         chunk_metadata[key] = val
-            # # --------------------------------------------------------
 
             # Đóng gói dữ liệu thành 1 object
             chunks_data.append({
@@ -237,8 +216,6 @@ def chunk_markdown_files(processed_dir: str = 'processed_2', chunk_dir: str = 'c
         print(f"  [OK] {len(chunks_data)} chunks → {json_path}")
         if tables: print(f"       (Đã xử lý {len(tables)} bảng biểu)")
 
-# Trigger để chạy script
 if __name__ == "__main__":
-    # Đảm bảo terminal đang chạy đúng ở thư mục chứa code
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
     chunk_markdown_files()

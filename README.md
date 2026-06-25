@@ -46,8 +46,8 @@ Hệ thống chatbot hỏi đáp về **quy chế, quy định của Đại họ
 │           (RRF fusion 60/40) │
 │                              │
 │  3. LLM Reranker             │
-│     (topic + hệ đào tạo      │
-│      filtering)              │
+│                              │
+│                              │
 │                              │
 │  4. Generator: GPT-4.1-mini  │
 │     (trả lời + trích dẫn)    │
@@ -124,7 +124,7 @@ chatbot-quyche-hust/
 │   ├── database.py                 # SQLAlchemy engine, SessionLocal, Base, get_db() dependency
 │   ├── routers/
 │   │   ├── chat.py                 # POST /chat, /chat/stream: nhận câu hỏi, gọi RAG, lưu message
-│   │   └── history.py              # GET /history: danh sách conversation và nội dung chat
+│   │   └── history.py              # GET /history: danh sách cuộc trò chuyện và nội dung chat
 │   └── models/
 │       └── conversation.py         # ORM model: bảng Conversation và Message (SQLite)
 │
@@ -246,7 +246,7 @@ cd backend && uvicorn main:app --reload --port 8001
 
 ### 6. Chạy Frontend
 
-Dùng **Live Server** (VS Code extension) để tránh lỗi CORS khi gọi API.
+Dùng **Live Server** (VS Code extension).
 
 ---
 

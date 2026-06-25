@@ -32,7 +32,7 @@ def answer(query: str, chat_history: list[dict] | None = None) -> dict:
         if not m["content"].startswith(_ERROR_PREFIXES)
     ]
 
-    rewritten = rewrite_query(query, clean_history)
+    rewritten = rewrite_query(query, clean_history) if clean_history else query
     chunks = retrieve(rewritten)
 
     if not chunks:
